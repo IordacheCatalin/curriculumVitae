@@ -4,19 +4,24 @@ import ProfilePhoto from "../../Assets/img/Profile.jpg";
 function firstPage() {
   return (
     <div className={Styles.container}>
+        
       <div className={Styles.leftSide}>
+      <div className={Styles.space}></div>
         <div>
-          <div className={Styles.PhotoBox}>
+            
+          <div className={Styles.DetailBox}>
             <img src={ProfilePhoto} alt="profile photography" />
             <h1 className={Styles.textDecoration}>Iordache Catalin</h1>
             <h2 className={Styles.textDecoration}>Junior Web Developer</h2>
-
+          </div>
         </div>
+        <div classname={Styles.Details}>
+          <div className={Styles.DetailBox}>Contact</div>
+          <div className={Styles.DetailBox}>Language</div>
+          <div className={Styles.DetailBox}>Skils</div>
         </div>
       </div>
-      <div className={Styles.rightSide}>
-      
-      </div>
+      <div className={Styles.rightSide}></div>
     </div>
   );
 }
