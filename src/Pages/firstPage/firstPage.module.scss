@@ -3,16 +3,18 @@
   padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,600;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200;1,500&display=swap');
 .container {
   display: flex;
   max-width: 1024px;
   min-height: 1200px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   margin-top: 60px;
   margin: 60px auto;
   overflow-x: hidden;
   flex-wrap: wrap;
+  border-radius: 16px;
 }
 
 .space {
@@ -41,11 +43,38 @@
 .DetailBox {
   display: flex;
   flex-direction: column;
-  background-color: #21395b;
+  background-color: #061a35;
   align-items: center;
   width: 350px;
   margin-right: 0px;
   margin-left: auto;
+  box-shadow: 0px 8px 18px 4px rgba(0, 0, 0, 0.2);
+}
+
+.DetailInBox {
+  padding-top: 20px;
+}
+
+.line {
+  min-width: 180px;
+  height: 1px;
+  background-color: white;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+.line2 {
+  min-width: 168px;
+  height: 1px;
+  background-color: white;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+.line3 {
+  min-width: 208px;
+  height: 1px;
+  background-color: white;
+  display: inline-block;
+  margin-bottom: 4px;
 }
 
 img {
@@ -56,6 +85,53 @@ img {
   margin-top: 24px;
 }
 
+img:hover {
+  display: flex;
+  border-radius: 50%;
+  border: solid 8px #0e8cf1;
+  object-fit: cover;
+  margin-top: 24px;
+  transform: translateY(-4px);
+  transition-timing-function: ease-in-out;
+  transition: 0.5s;
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
 .textDecoration {
   color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  opacity: 0.8;
+  font-weight: 400;
+}
+
+.textDecoration:hover {
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: white;
+  opacity: 1;
+  transition: 0.4s;
+  text-shadow: 2px 2px 8px #000000;
+}
+
+.FontAwesome:hover {
+  transform: scale(1.5) rotate(0.05turn);
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
+.DetailInBox {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight:300;
+  font-size: 16px;
+  opacity: 0.8;
+
+}
+
+.DetailInBox:hover {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight:300;
+  font-size: 16px;
+  opacity: 1;
+  transition: 0.4s;
+  text-shadow: 2px 2px 8px #000000;
 }
