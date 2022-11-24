@@ -5,9 +5,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,600;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200;1,500&display=swap');
 body {
-  background-image: url(../../../public/body.jpg) ;
-  background-repeat: repeat;
-  background-size: contain;
+background: linear-gradient(110deg, #000000 60%, #1a1a1a 60%);
  
 }
 
@@ -53,32 +51,30 @@ body {
   flex-direction: column;
   background-color: #061a35;
   align-items: center;
-  width: 350px;
+  width: 380px;
   margin-right: 0px;
   margin-left: auto;
   box-shadow: 0px 8px 18px 4px rgba(0, 0, 0, 0.2);
 }
 
-.DetailInBox {
-  padding-top: 20px;
-}
+
 
 .line {
-  min-width: 180px;
+  min-width: 220px;
   height: 1px;
   background-color: white;
   display: inline-block;
   margin-bottom: 4px;
 }
 .line2 {
-  min-width: 168px;
+  min-width: 208px;
   height: 1px;
   background-color: white;
   display: inline-block;
   margin-bottom: 4px;
 }
 .line3 {
-  min-width: 208px;
+  min-width: 248px;
   height: 1px;
   background-color: white;
   display: inline-block;
@@ -114,19 +110,44 @@ img:hover {
   font-weight: 400;
 }
 
+.textInfoDecoration {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  opacity: 0.8;
+  font-weight: 300;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.textInfoDecoration:hover {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  opacity: 0.8;
+  font-weight: 300;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
 .textDecoration:hover {
   font-family: 'IBM Plex Sans', sans-serif;
   color: white;
   opacity: 1;
   transition: 0.4s;
   text-shadow: 2px 2px 8px #000000;
-}
+  }
 
 .FontAwesome:hover {
   transform: scale(1.5) rotate(0.05turn);
   transition: 0.5s;
   transition-timing-function: ease-in-out;
   box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+  opacity: 1;
 }
 
 .DetailInBox {
@@ -134,6 +155,8 @@ img:hover {
   font-weight:300;
   font-size: 16px;
   opacity: 0.8;
+  margin-top: 20px;
+  margin-bottom: 20px;
 
 }
 
