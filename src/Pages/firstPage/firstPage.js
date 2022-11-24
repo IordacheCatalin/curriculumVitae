@@ -14,6 +14,8 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faGaugeHigh } from "@fortawesome/free-solid-svg-icons";
 import { faPersonArrowDownToLine } from "@fortawesome/free-solid-svg-icons";
 
+import ProgressBar from "@ramonak/react-progress-bar";
+
 function firstPage() {
   return (
     <body>
@@ -164,11 +166,194 @@ function firstPage() {
               <span> </span>
               <div className={Styles.line3}></div>
               <span style={{ color: "white", fontSize: "1em" }}> SKILL</span>
+              <div
+                className={Styles.textInfoDecoration}
+                style={{ marginBottom: "5px" }}
+              >
+                ReactJSvgjv
+              </div>
+              <div className={Styles.ProgressBar}>
+              <ProgressBar
+              
+                completed={"Entry Level"}
+                className={Styles.wrapper}
+                barContainerClassName={Styles.barContainer}
+                completedClassName={Styles.barCompleted}
+                labelClassName={Styles.label}
+              />
+              </div>
+
+              <div
+                className={Styles.textInfoDecoration}
+                style={{ marginBottom: "5px" }}
+              >
+                ReactJSvgjv
+              </div>
+              <div className={Styles.ProgressBar}>
+              <ProgressBar
+              
+                completed={"Entry Level"}
+                className={Styles.wrapper}
+                barContainerClassName={Styles.barContainer}
+                completedClassName={Styles.barCompleted}
+                labelClassName={Styles.label}
+              />
+              </div>
+
+              <div
+                className={Styles.textInfoDecoration}
+                style={{ marginBottom: "5px" }}
+              >
+                ReactJSvgjv
+              </div>
+              <div className={Styles.ProgressBar}>
+              <ProgressBar
+              
+                completed={"Entry Level"}
+                className={Styles.wrapper}
+                barContainerClassName={Styles.barContainer}
+                completedClassName={Styles.barCompleted}
+                labelClassName={Styles.label}
+              />
+              </div>
+
+              <div
+                className={Styles.textInfoDecoration}
+                style={{ marginBottom: "5px" }}
+              >
+                ReactJSvgjv
+              </div>
+              <div className={Styles.ProgressBar}>
+              <ProgressBar
+              
+                completed={"Entry Level"}
+                className={Styles.wrapper}
+                barContainerClassName={Styles.barContainer}
+                completedClassName={Styles.barCompleted}
+                labelClassName={Styles.label}
+              />
+              </div>
+
+              <div
+                className={Styles.textInfoDecoration}
+                style={{ marginBottom: "5px" }}
+              >
+                ReactJSvgjv
+              </div>
+              <div className={Styles.ProgressBar}>
+              <ProgressBar
+              
+                completed={"Entry Level"}
+                className={Styles.wrapper}
+                barContainerClassName={Styles.barContainer}
+                completedClassName={Styles.barCompleted}
+                labelClassName={Styles.label}
+              />
+              </div>
+
+              <div
+                className={Styles.textInfoDecoration}
+                style={{ marginBottom: "5px" }}
+              >
+                ReactJSvgjv
+              </div>
+              <div className={Styles.ProgressBar}>
+              <ProgressBar
+              
+                completed={"Entry Level"}
+                className={Styles.wrapper}
+                barContainerClassName={Styles.barContainer}
+                completedClassName={Styles.barCompleted}
+                labelClassName={Styles.label}
+              />
+              </div>
+
+              <div
+                className={Styles.textInfoDecoration}
+                style={{ marginBottom: "5px" }}
+              >
+                ReactJSvgjv
+              </div>
+              <div className={Styles.ProgressBar}>
+              <ProgressBar
+              
+                completed={"Entry Level"}
+                className={Styles.wrapper}
+                barContainerClassName={Styles.barContainer}
+                completedClassName={Styles.barCompleted}
+                labelClassName={Styles.label}
+              />
+              </div>
+
+              <div
+                className={Styles.textInfoDecoration}
+                style={{ marginBottom: "5px" }}
+              >
+                ReactJSvgjv
+              </div>
+              <div className={Styles.ProgressBar}>
+              <ProgressBar
+              
+                completed={"Entry Level"}
+                className={Styles.wrapper}
+                barContainerClassName={Styles.barContainer}
+                completedClassName={Styles.barCompleted}
+                labelClassName={Styles.label}
+              />
+              </div>
+
+              <div
+                className={Styles.textInfoDecoration}
+                style={{ marginBottom: "5px" }}
+              >
+                ReactJSvgjv
+              </div>
+              <div className={Styles.ProgressBar}>
+              <ProgressBar
+              
+                completed={"Entry Level"}
+                className={Styles.wrapper}
+                barContainerClassName={Styles.barContainer}
+                completedClassName={Styles.barCompleted}
+                labelClassName={Styles.label}
+              />
+              </div>
+
+              <div
+                className={Styles.textInfoDecoration}
+                style={{ marginBottom: "5px" }}
+              >
+                ReactJSvgjv
+              </div>
+              <div className={Styles.ProgressBar}>
+              <ProgressBar
+              
+                completed={"Entry Level"}
+                className={Styles.wrapper}
+                barContainerClassName={Styles.barContainer}
+                completedClassName={Styles.barCompleted}
+                labelClassName={Styles.label}
+              />
+              </div>
+             
             </span>
           </div>
         </div>
 
-        <div className={Styles.rightSide}></div>
+        <div className={Styles.rightSide}>
+          <div className={Styles.space}></div>
+          <div>
+            <div
+              className={Styles.DetailBoxRight}
+              style={{ backgroundColor: "#21395b" }}
+            >
+              <img src={ProfilePhoto} alt="profile photography" />
+              <h1 className={Styles.textDecoration}>Iordache Catalin</h1>
+              <h3 className={Styles.textDecoration}>Junior Web Developer</h3>
+              <br></br>
+            </div>
+          </div>
+        </div>
       </div>
     </body>
   );
