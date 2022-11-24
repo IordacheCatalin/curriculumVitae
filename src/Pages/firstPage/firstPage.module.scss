@@ -28,8 +28,8 @@ background: linear-gradient(110deg, #000000 60%, #1a1a1a 60%);
 }
 
 .container:hover {
-  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 4px 0px,
-    rgba(0, 0, 0, 0.32) 0px 2px 16px 0px;
+  box-shadow: rgba(0, 225, 255, 0.51) 5px 8px 24px;
+  
 }
 
 .leftSide {
@@ -54,9 +54,7 @@ background: linear-gradient(110deg, #000000 60%, #1a1a1a 60%);
   width: 380px;
   margin-right: 0px;
   margin-left: auto;
-  box-shadow: 0px 8px 18px 4px rgba(0, 0, 0, 0.2);
-}
-
+  }
 
 
 .line {
@@ -66,6 +64,7 @@ background: linear-gradient(110deg, #000000 60%, #1a1a1a 60%);
   display: inline-block;
   margin-bottom: 4px;
 }
+
 .line2 {
   min-width: 208px;
   height: 1px;
@@ -91,11 +90,6 @@ img {
 }
 
 img:hover {
-  display: flex;
-  border-radius: 50%;
-  border: solid 8px #0e8cf1;
-  object-fit: cover;
-  margin-top: 24px;
   transform: translateY(-4px);
   transition-timing-function: ease-in-out;
   transition: 0.5s;
@@ -109,6 +103,11 @@ img:hover {
   opacity: 0.8;
   font-weight: 400;
 }
+.textDecoration:hover {
+  opacity: 1;
+  transition: 0.4s;
+  text-shadow: 2px 2px 8px #000000;
+  }
 
 .textInfoDecoration {
   display: flex;
@@ -123,24 +122,10 @@ img:hover {
 }
 
 .textInfoDecoration:hover {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  color: white;
-  font-family: 'IBM Plex Sans', sans-serif;
-  opacity: 0.8;
-  font-weight: 300;
-  font-size: 14px;
-  padding-top: 10px;
+  opacity: 1;
 }
 
-.textDecoration:hover {
-  font-family: 'IBM Plex Sans', sans-serif;
-  color: white;
-  opacity: 1;
-  transition: 0.4s;
-  text-shadow: 2px 2px 8px #000000;
-  }
+
 
 .FontAwesome:hover {
   transform: scale(1.5) rotate(0.05turn);
@@ -161,9 +146,6 @@ img:hover {
 }
 
 .DetailInBox:hover {
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-weight:300;
-  font-size: 16px;
   opacity: 1;
   transition: 0.4s;
   text-shadow: 2px 2px 8px #000000;

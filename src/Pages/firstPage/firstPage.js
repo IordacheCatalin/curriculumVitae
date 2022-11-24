@@ -8,6 +8,11 @@ import { faListCheck } from "@fortawesome/free-solid-svg-icons";
 import { faSquarePhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { faGaugeHigh } from "@fortawesome/free-solid-svg-icons";
+import { faPersonArrowDownToLine } from "@fortawesome/free-solid-svg-icons";
 
 function firstPage() {
   return (
@@ -62,7 +67,7 @@ function firstPage() {
                 />
               </div>
               <div className={Styles.textInfoDecoration}>
-              https://iordachecatalin.github.io/curriculumVitae/
+                https://iordachecatalin.github.io/curriculumVitae/
                 <FontAwesomeIcon
                   className={Styles.FontAwesome}
                   icon={faGlobe}
@@ -74,10 +79,34 @@ function firstPage() {
                 />
               </div>
               <div className={Styles.textInfoDecoration}>
-              www.linkedin.com/in/iordache-catalin-a99396238
+                www.linkedin.com/in/iordache-catalin-a99396238
                 <FontAwesomeIcon
                   className={Styles.FontAwesome}
-                  icon={faGlobe}
+                  icon={faLinkedin}
+                  style={{
+                    color: "white",
+                    fontSize: "1.2em",
+                    marginLeft: "10px",
+                  }}
+                />
+              </div>
+              <div className={Styles.textInfoDecoration}>
+                https://github.com/IordacheCatalin
+                <FontAwesomeIcon
+                  className={Styles.FontAwesome}
+                  icon={faGithub}
+                  style={{
+                    color: "white",
+                    fontSize: "1.2em",
+                    marginLeft: "10px",
+                  }}
+                />
+              </div>
+              <div className={Styles.textInfoDecoration}>
+                Romania , Jud. Ilfov , Com. Chiajna , Sat Rosu
+                <FontAwesomeIcon
+                  className={Styles.FontAwesome}
+                  icon={faLocationDot}
                   style={{
                     color: "white",
                     fontSize: "1.2em",
@@ -98,6 +127,30 @@ function firstPage() {
               <span> </span>
               <div className={Styles.line2}></div>
               <span style={{ color: "white", fontSize: "1em" }}> LANGUAGE</span>
+              <div className={Styles.textInfoDecoration}>
+                English
+                <FontAwesomeIcon
+                  className={Styles.FontAwesome}
+                  icon={faGaugeHigh}
+                  style={{
+                    color: "white",
+                    fontSize: "1.2em",
+                    marginLeft: "10px",
+                  }}
+                />
+              </div>
+              <div className={Styles.textInfoDecoration}>
+                Romanian (Native)
+                <FontAwesomeIcon
+                  className={Styles.FontAwesome}
+                  icon={faPersonArrowDownToLine}
+                  style={{
+                    color: "white",
+                    fontSize: "1.2em",
+                    marginLeft: "10px",
+                  }}
+                />
+              </div>
             </span>
           </div>
 
