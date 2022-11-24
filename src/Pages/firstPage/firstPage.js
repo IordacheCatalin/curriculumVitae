@@ -8,6 +8,7 @@ import { faListCheck } from "@fortawesome/free-solid-svg-icons";
 
 function firstPage() {
   return (
+    <body>
     <div className={Styles.container}>
       <div className={Styles.leftSide}>
         <div className={Styles.space}></div>
@@ -65,6 +66,7 @@ function firstPage() {
 
       <div className={Styles.rightSide}></div>
     </div>
+    </body>
   );
 }
 
