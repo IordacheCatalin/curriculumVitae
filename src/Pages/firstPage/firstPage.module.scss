@@ -176,3 +176,14 @@ img:hover {
   color: rgb(255, 255, 255);
   margin-right: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+
+  .DetailBox{
+       margin-right: auto;
+       max-width: 500px;
+     }
+     .leftSide {
+      background-color:#21395b;
+      }
+}
