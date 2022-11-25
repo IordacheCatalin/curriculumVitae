@@ -335,7 +335,18 @@ function firstPage() {
         </div>
 
         <div className={Styles.rightSide}>
-          <div className={Styles.space}></div>
+        <div className={Styles.space}><img src={Logo} className={Styles.imgLogo} alt="Iordache Catalin logo"/></div>
+          <div>
+            <div
+              className={Styles.DetailBox}
+              style={{ backgroundColor: "#21395b" }}
+            >
+              
+              <h1 className={Styles.textDecoration}>Iordache Catalin</h1>
+              <h3 className={Styles.textDecoration}>Junior Web Developer</h3>
+              <br></br>
+            </div>
+          </div>
           
         </div>
       </div>

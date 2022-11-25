@@ -25,8 +25,8 @@ body {
   opacity: 1;
 }
 
-.imgLogo{
-  width:100px;
+.imgLogo {
+  display: flex;
   padding: 10px;
 }
 
@@ -53,7 +53,7 @@ body {
   flex-direction: column;
   background-color: #061a35;
   align-items: center;
-  width: 380px;
+  width: 400px;
   margin-right: 0px;
   margin-left: auto;
 }
@@ -200,13 +200,12 @@ img:hover {
   width: 98%;
 }
 
-.barCompleted6{
+.barCompleted6 {
   display: flex;
   justify-content: flex-end;
   background-color: #127bd3;
   width: 70%;
 }
-
 
 .label {
   font-size: 16px;
@@ -216,10 +215,10 @@ img:hover {
   margin-right: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 820px) {
   .DetailBox {
     margin-right: auto;
-    max-width: 500px;
+    max-width: 550px;
   }
   .leftSide {
     background-color: #21395b;
