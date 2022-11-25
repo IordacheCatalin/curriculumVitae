@@ -30,7 +30,7 @@ function Popup () {
                 </Pop>
 
                 <Pop trigger={timedPop} setTrigger={setTimedPop}>
-                    <h3 >My popup</h3>
+                    <h3 >Let's stay in touch.</h3>
                     <p>This time pop</p>
                 </Pop>
             

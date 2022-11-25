@@ -22,7 +22,12 @@ body {
 }
 .space {
   height: 80px;
-  opacity: 0;
+  opacity: 1;
+}
+
+.imgLogo{
+  width:100px;
+  padding: 10px;
 }
 
 .container:hover {
@@ -76,7 +81,7 @@ body {
   margin-bottom: 4px;
 }
 
-img {
+.imgProfile {
   display: flex;
   border-radius: 50%;
   border: solid 8px #0e8cf1;
@@ -165,8 +170,43 @@ img:hover {
   display: flex;
   justify-content: flex-end;
   background-color: #127bd3;
+  width: 95%;
+}
+.barCompleted2 {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #127bd3;
+  width: 85%;
+}
+
+.barCompleted3 {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #127bd3;
   width: 90%;
 }
+
+.barCompleted4 {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #127bd3;
+  width: 65%;
+}
+
+.barCompleted5 {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #127bd3;
+  width: 98%;
+}
+
+.barCompleted6{
+  display: flex;
+  justify-content: flex-end;
+  background-color: #127bd3;
+  width: 70%;
+}
+
 
 .label {
   font-size: 16px;

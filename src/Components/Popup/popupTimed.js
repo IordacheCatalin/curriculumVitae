@@ -15,10 +15,12 @@ function Popup() {
 
   return (
     <div>
-       
       <Pop trigger={timedPop} setTrigger={setTimedPop}>
-        <h3>My popup</h3>
-        <p>This time pop</p>
+        <h3 className={Styles.fontText}>Let's stay in touch !</h3>
+        <p className={Styles.fontTextP}>
+          Thank you for visiting my profile. Connect with me, together we can do
+          great things.
+        </p>
       </Pop>
     </div>
   );

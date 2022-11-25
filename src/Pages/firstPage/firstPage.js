@@ -1,5 +1,6 @@
 import Styles from "../firstPage/firstPage.module.scss";
 import ProfilePhoto from "../../Assets/img/Profile.jpg";
+import Logo from "../../Assets/img/logo.png";
 import PopupTimed from "../../Components/Popup/popupTimed";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -22,15 +23,16 @@ function firstPage() {
     <>
      <PopupTimed/>
         <div className={Styles.container}>
+          
         <div className={Styles.leftSide}>
        
-          <div className={Styles.space}></div>
+          <div className={Styles.space}><img src={Logo} className={Styles.imgLogo} alt="Iordache Catalin logo"/></div>
           <div>
             <div
               className={Styles.DetailBox}
               style={{ backgroundColor: "#21395b" }}
             >
-              <img src={ProfilePhoto} alt="profile photography" />
+              <img className={Styles.imgProfile} src={ProfilePhoto} alt="profile photography" />
               <h1 className={Styles.textDecoration}>Iordache Catalin</h1>
               <h3 className={Styles.textDecoration}>Junior Web Developer</h3>
               <br></br>
@@ -173,11 +175,11 @@ function firstPage() {
                 className={Styles.textInfoDecoration}
                 style={{ marginBottom: "5px" }}
               >
-                ReactJSvgjv
+                ReactJS
               </div>
               <div className={Styles.ProgressBar}>
                 <ProgressBar
-                  completed={"Entry Level"}
+                  completed={"Entry Level Junior"}
                   className={Styles.wrapper}
                   barContainerClassName={Styles.barContainer}
                   completedClassName={Styles.barCompleted}
@@ -189,14 +191,14 @@ function firstPage() {
                 className={Styles.textInfoDecoration}
                 style={{ marginBottom: "5px" }}
               >
-                ReactJSvgjv
+                Git
               </div>
               <div className={Styles.ProgressBar}>
                 <ProgressBar
                   completed={"Entry Level"}
                   className={Styles.wrapper}
                   barContainerClassName={Styles.barContainer}
-                  completedClassName={Styles.barCompleted}
+                  completedClassName={Styles.barCompleted2}
                   labelClassName={Styles.label}
                 />
               </div>
@@ -205,14 +207,14 @@ function firstPage() {
                 className={Styles.textInfoDecoration}
                 style={{ marginBottom: "5px" }}
               >
-                ReactJSvgjv
+                Responsive design , HTML , CSS , SCSS
               </div>
               <div className={Styles.ProgressBar}>
                 <ProgressBar
-                  completed={"Entry Level"}
+                  completed={"Entry Level Junior"}
                   className={Styles.wrapper}
                   barContainerClassName={Styles.barContainer}
-                  completedClassName={Styles.barCompleted}
+                  completedClassName={Styles.barCompleted3}
                   labelClassName={Styles.label}
                 />
               </div>
@@ -221,14 +223,14 @@ function firstPage() {
                 className={Styles.textInfoDecoration}
                 style={{ marginBottom: "5px" }}
               >
-                ReactJSvgjv
+                JavaScript
               </div>
               <div className={Styles.ProgressBar}>
                 <ProgressBar
-                  completed={"Entry Level"}
+                  completed={"Entry Level Junior"}
                   className={Styles.wrapper}
                   barContainerClassName={Styles.barContainer}
-                  completedClassName={Styles.barCompleted}
+                  completedClassName={Styles.barCompleted4}
                   labelClassName={Styles.label}
                 />
               </div>
@@ -237,14 +239,14 @@ function firstPage() {
                 className={Styles.textInfoDecoration}
                 style={{ marginBottom: "5px" }}
               >
-                ReactJSvgjv
+                Communication , Adaptability , Creativity
               </div>
               <div className={Styles.ProgressBar}>
                 <ProgressBar
-                  completed={"Entry Level"}
+                  completed={"98%"}
                   className={Styles.wrapper}
                   barContainerClassName={Styles.barContainer}
-                  completedClassName={Styles.barCompleted}
+                  completedClassName={Styles.barCompleted5}
                   labelClassName={Styles.label}
                 />
               </div>
@@ -253,14 +255,14 @@ function firstPage() {
                 className={Styles.textInfoDecoration}
                 style={{ marginBottom: "5px" }}
               >
-                ReactJSvgjv
+                Front-end frameworks
               </div>
               <div className={Styles.ProgressBar}>
                 <ProgressBar
                   completed={"Entry Level"}
                   className={Styles.wrapper}
                   barContainerClassName={Styles.barContainer}
-                  completedClassName={Styles.barCompleted}
+                  completedClassName={Styles.barCompleted6}
                   labelClassName={Styles.label}
                 />
               </div>
@@ -334,17 +336,7 @@ function firstPage() {
 
         <div className={Styles.rightSide}>
           <div className={Styles.space}></div>
-          <div>
-            <div
-              className={Styles.DetailBoxRight}
-              style={{ backgroundColor: "#21395b" }}
-            >
-              <img src={ProfilePhoto} alt="profile photography" />
-              <h1 className={Styles.textDecoration}>Iordache Catalin</h1>
-              <h3 className={Styles.textDecoration}>Junior Web Developer</h3>
-              <br></br>
-            </div>
-          </div>
+          
         </div>
       </div>
     </>
