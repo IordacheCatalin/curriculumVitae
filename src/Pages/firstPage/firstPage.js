@@ -1,5 +1,6 @@
 import Styles from "../firstPage/firstPage.module.scss";
 import ProfilePhoto from "../../Assets/img/Profile.jpg";
+import PopupTimed from "../../Components/Popup/popupTimed";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAddressBook } from "@fortawesome/free-solid-svg-icons";
@@ -15,12 +16,14 @@ import { faGaugeHigh } from "@fortawesome/free-solid-svg-icons";
 import { faPersonArrowDownToLine } from "@fortawesome/free-solid-svg-icons";
 
 import ProgressBar from "@ramonak/react-progress-bar";
-
 function firstPage() {
   return (
-    <body>
-      <div className={Styles.container}>
+
+    <>
+     <PopupTimed/>
+        <div className={Styles.container}>
         <div className={Styles.leftSide}>
+       
           <div className={Styles.space}></div>
           <div>
             <div
@@ -173,14 +176,13 @@ function firstPage() {
                 ReactJSvgjv
               </div>
               <div className={Styles.ProgressBar}>
-              <ProgressBar
-              
-                completed={"Entry Level"}
-                className={Styles.wrapper}
-                barContainerClassName={Styles.barContainer}
-                completedClassName={Styles.barCompleted}
-                labelClassName={Styles.label}
-              />
+                <ProgressBar
+                  completed={"Entry Level"}
+                  className={Styles.wrapper}
+                  barContainerClassName={Styles.barContainer}
+                  completedClassName={Styles.barCompleted}
+                  labelClassName={Styles.label}
+                />
               </div>
 
               <div
@@ -190,14 +192,13 @@ function firstPage() {
                 ReactJSvgjv
               </div>
               <div className={Styles.ProgressBar}>
-              <ProgressBar
-              
-                completed={"Entry Level"}
-                className={Styles.wrapper}
-                barContainerClassName={Styles.barContainer}
-                completedClassName={Styles.barCompleted}
-                labelClassName={Styles.label}
-              />
+                <ProgressBar
+                  completed={"Entry Level"}
+                  className={Styles.wrapper}
+                  barContainerClassName={Styles.barContainer}
+                  completedClassName={Styles.barCompleted}
+                  labelClassName={Styles.label}
+                />
               </div>
 
               <div
@@ -207,14 +208,13 @@ function firstPage() {
                 ReactJSvgjv
               </div>
               <div className={Styles.ProgressBar}>
-              <ProgressBar
-              
-                completed={"Entry Level"}
-                className={Styles.wrapper}
-                barContainerClassName={Styles.barContainer}
-                completedClassName={Styles.barCompleted}
-                labelClassName={Styles.label}
-              />
+                <ProgressBar
+                  completed={"Entry Level"}
+                  className={Styles.wrapper}
+                  barContainerClassName={Styles.barContainer}
+                  completedClassName={Styles.barCompleted}
+                  labelClassName={Styles.label}
+                />
               </div>
 
               <div
@@ -224,14 +224,13 @@ function firstPage() {
                 ReactJSvgjv
               </div>
               <div className={Styles.ProgressBar}>
-              <ProgressBar
-              
-                completed={"Entry Level"}
-                className={Styles.wrapper}
-                barContainerClassName={Styles.barContainer}
-                completedClassName={Styles.barCompleted}
-                labelClassName={Styles.label}
-              />
+                <ProgressBar
+                  completed={"Entry Level"}
+                  className={Styles.wrapper}
+                  barContainerClassName={Styles.barContainer}
+                  completedClassName={Styles.barCompleted}
+                  labelClassName={Styles.label}
+                />
               </div>
 
               <div
@@ -241,14 +240,13 @@ function firstPage() {
                 ReactJSvgjv
               </div>
               <div className={Styles.ProgressBar}>
-              <ProgressBar
-              
-                completed={"Entry Level"}
-                className={Styles.wrapper}
-                barContainerClassName={Styles.barContainer}
-                completedClassName={Styles.barCompleted}
-                labelClassName={Styles.label}
-              />
+                <ProgressBar
+                  completed={"Entry Level"}
+                  className={Styles.wrapper}
+                  barContainerClassName={Styles.barContainer}
+                  completedClassName={Styles.barCompleted}
+                  labelClassName={Styles.label}
+                />
               </div>
 
               <div
@@ -258,14 +256,13 @@ function firstPage() {
                 ReactJSvgjv
               </div>
               <div className={Styles.ProgressBar}>
-              <ProgressBar
-              
-                completed={"Entry Level"}
-                className={Styles.wrapper}
-                barContainerClassName={Styles.barContainer}
-                completedClassName={Styles.barCompleted}
-                labelClassName={Styles.label}
-              />
+                <ProgressBar
+                  completed={"Entry Level"}
+                  className={Styles.wrapper}
+                  barContainerClassName={Styles.barContainer}
+                  completedClassName={Styles.barCompleted}
+                  labelClassName={Styles.label}
+                />
               </div>
 
               <div
@@ -275,14 +272,13 @@ function firstPage() {
                 ReactJSvgjv
               </div>
               <div className={Styles.ProgressBar}>
-              <ProgressBar
-              
-                completed={"Entry Level"}
-                className={Styles.wrapper}
-                barContainerClassName={Styles.barContainer}
-                completedClassName={Styles.barCompleted}
-                labelClassName={Styles.label}
-              />
+                <ProgressBar
+                  completed={"Entry Level"}
+                  className={Styles.wrapper}
+                  barContainerClassName={Styles.barContainer}
+                  completedClassName={Styles.barCompleted}
+                  labelClassName={Styles.label}
+                />
               </div>
 
               <div
@@ -292,14 +288,13 @@ function firstPage() {
                 ReactJSvgjv
               </div>
               <div className={Styles.ProgressBar}>
-              <ProgressBar
-              
-                completed={"Entry Level"}
-                className={Styles.wrapper}
-                barContainerClassName={Styles.barContainer}
-                completedClassName={Styles.barCompleted}
-                labelClassName={Styles.label}
-              />
+                <ProgressBar
+                  completed={"Entry Level"}
+                  className={Styles.wrapper}
+                  barContainerClassName={Styles.barContainer}
+                  completedClassName={Styles.barCompleted}
+                  labelClassName={Styles.label}
+                />
               </div>
 
               <div
@@ -309,14 +304,13 @@ function firstPage() {
                 ReactJSvgjv
               </div>
               <div className={Styles.ProgressBar}>
-              <ProgressBar
-              
-                completed={"Entry Level"}
-                className={Styles.wrapper}
-                barContainerClassName={Styles.barContainer}
-                completedClassName={Styles.barCompleted}
-                labelClassName={Styles.label}
-              />
+                <ProgressBar
+                  completed={"Entry Level"}
+                  className={Styles.wrapper}
+                  barContainerClassName={Styles.barContainer}
+                  completedClassName={Styles.barCompleted}
+                  labelClassName={Styles.label}
+                />
               </div>
 
               <div
@@ -326,16 +320,14 @@ function firstPage() {
                 ReactJSvgjv
               </div>
               <div className={Styles.ProgressBar}>
-              <ProgressBar
-              
-                completed={"Entry Level"}
-                className={Styles.wrapper}
-                barContainerClassName={Styles.barContainer}
-                completedClassName={Styles.barCompleted}
-                labelClassName={Styles.label}
-              />
+                <ProgressBar
+                  completed={"Entry Level"}
+                  className={Styles.wrapper}
+                  barContainerClassName={Styles.barContainer}
+                  completedClassName={Styles.barCompleted}
+                  labelClassName={Styles.label}
+                />
               </div>
-             
             </span>
           </div>
         </div>
@@ -355,7 +347,7 @@ function firstPage() {
           </div>
         </div>
       </div>
-    </body>
+    </>
   );
 }
 

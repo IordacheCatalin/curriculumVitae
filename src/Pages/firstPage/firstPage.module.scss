@@ -20,7 +20,6 @@ body {
   flex-wrap: wrap;
   border-radius: 16px;
 }
-
 .space {
   height: 80px;
   opacity: 0;
@@ -178,12 +177,14 @@ img:hover {
 }
 
 @media only screen and (max-width: 600px) {
-
-  .DetailBox{
-       margin-right: auto;
-       max-width: 500px;
-     }
-     .leftSide {
-      background-color:#21395b;
-      }
+  .DetailBox {
+    margin-right: auto;
+    max-width: 500px;
+  }
+  .leftSide {
+    background-color: #21395b;
+  }
+  .container {
+    margin: 0 auto;
+  }
 }
