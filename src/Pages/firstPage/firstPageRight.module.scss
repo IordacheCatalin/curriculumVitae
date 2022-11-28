@@ -1,96 +1,103 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
+  margin: 0;
+  padding: 0;
+}
+
 .DetailBox {
-    display: flex;
-    flex-direction: column;
-    background-color: #dedede;
-    width: 475px;
-    height: 1334px;
-    justify-content: flex-start;
-        
+  display: flex;
+  flex-direction: column;
+  background-color: #dedede;
+  width: 475px;
+  min-height: 1377px;
+  justify-content: flex-start;
+}
+
+.DetailInBox {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  padding: 6px 10px 6px 10px;
+  margin-top: 10px;
+}
+.textDecoration {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 6px 10px 4px 10px;
+  text-align: justify;
+  text-justify: inter-word;
+  text-decoration: none;
+  color: black;
+}
+
+.textDecorationTitle {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 6px 10px 4px 10px;
+  text-align: justify;
+  text-justify: inter-word;
+  text-decoration: none;
+  color: black;
+}
+
+.DetailInBox:hover {
+  opacity: 1;
+  transition: 0.4s;
+  font-weight: 600;
+}
+
+.line {
+  min-width: 280px;
+  height: 1px;
+  background-color: black;
+  display: inline-block;
+  margin-bottom: 6px;
+}
+.line2 {
+  min-width: 252px;
+  height: 1px;
+  background-color: black;
+  display: inline-block;
+  margin-bottom: 6px;
+}
+.line3 {
+  min-width: 173px;
+  height: 1px;
+  background-color: black;
+  display: inline-block;
+  margin-bottom: 6px;
+}
+.line4 {
+  min-width: 252px;
+  height: 1px;
+  background-color: black;
+  display: inline-block;
+  margin-bottom: 6px;
+}
+
+.FontAwesome:hover {
+  transform: scale(1.7) rotate(1turn);
+  transition: 0.7s;
+  transition-timing-function: ease-in-out;
+  opacity: 1;
+}
+
+@media only screen and (max-width: 900px) {
+  .DetailBox {
+    margin: 0 auto;
+    width: 380px;
   }
-
-  .DetailInBox {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 500;
-    font-size: 22px;
-    padding: 16px 12px 16px 12px;
-    margin-top: 10px;
-   }
-    .textDecoration {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    padding: 6px 12px 6px 12px;
-    text-align: justify;
-    text-justify: inter-word;
-   }
-
-   .textDecorationTitle{
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    padding: 16px 12px 16px 12px;
-    text-align: justify;
-    text-justify: inter-word;
-    text-decoration: none;
-    color:black;
-   }
-
-  .DetailInBox:hover {
-    opacity: 1;
-    transition: 0.4s;
-    font-weight: 600;
-  }
-
   .line {
-    min-width: 280px;
-    height: 1px;
-    background-color: black;
-    display: inline-block;
-    margin-bottom: 6px;
+    min-width: 185px;
   }
   .line2 {
-    min-width: 260px;
-    height: 1px;
-    background-color: black;
-    display: inline-block;
-    margin-bottom: 6px;
+    min-width: 157px;
   }
   .line3 {
-    min-width: 180px;
-    height: 1px;
-    background-color: black;
-    display: inline-block;
-    margin-bottom: 6px;
+    min-width: 78px;
   }
   .line4 {
-    min-width: 240px;
-    height: 1px;
-    background-color: black;
-    display: inline-block;
-    margin-bottom: 6px;
+    min-width: 157px;
   }
-  
-  .FontAwesome:hover {
-    transform: scale(1.7) rotate(1turn);
-    transition: 0.7s;
-    transition-timing-function: ease-in-out;
-   opacity: 1;
-  }
-  
-  
-
-  @media only screen and (max-width: 900px) {
-    .DetailBox {
-      margin: 0 auto;
-      width: 380px;
-      }
-      .line {
-        min-width: 180px;}
-   
-  }
-  
+}

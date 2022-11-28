@@ -90,7 +90,7 @@ body {
   opacity: 0.8;
 }
 
-img:hover {
+.imgProfile:hover {
   transform: translateY(-4px);
   transition-timing-function: ease-in-out;
   transition: 0.5s;
@@ -114,12 +114,14 @@ img:hover {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  color: white;
   font-family: "IBM Plex Sans", sans-serif;
   opacity: 0.8;
   font-weight: 300;
   font-size: 14px;
   padding-top: 10px;
+  text-decoration: none;
+  color: white;
+  
 }
 
 .ProgressBar {

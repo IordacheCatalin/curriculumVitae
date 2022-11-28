@@ -26,7 +26,7 @@ import ProgressBar from "@ramonak/react-progress-bar";
 function firstPage() {
   return (
     <>
-      <PopupTimed />
+      {/* <PopupTimed /> */}
       <div className={Styles.container}>
         <div className={Styles.leftSide}>
           <div className={Styles.space}>
@@ -76,7 +76,14 @@ function firstPage() {
                 />
               </div>
               <div className={Styles.textInfoDecoration}>
-                iordache.catalin1986@gmail.com
+                <a
+                  className={Styles.textInfoDecoration}
+                  href="mailto:iordache.catalin1986@gmail.com"
+                  rel="noreferrer Click for sending an email to me"
+                  target="_blank"
+                >
+                  iordache.catalin1986@gmail.com
+                </a>
                 <FontAwesomeIcon
                   className={Styles.FontAwesome}
                   icon={faEnvelope}
@@ -87,11 +94,16 @@ function firstPage() {
                   }}
                 />
               </div>
-              <div
-                className={Styles.textInfoDecoration}
-                style={{ fontSize: "12px", fontWeight: "500" }}
-              >
-                https://iordachecatalin.github.io/curriculumVitae/
+              <div className={Styles.textInfoDecoration}>
+                <a
+                  style={{ fontSize: "12px", fontWeight: "500" }}
+                  className={Styles.textInfoDecoration}
+                  href="https://iordachecatalin.github.io/curriculumVitae/"
+                  rel="noreferrer Iordache Catalin personal profile webpage"
+                  target="_blank"
+                >
+                  https://iordachecatalin.github.io/curriculumVitae/{" "}
+                </a>
                 <FontAwesomeIcon
                   className={Styles.FontAwesome}
                   icon={faGlobe}
@@ -102,11 +114,16 @@ function firstPage() {
                   }}
                 />
               </div>
-              <div
-                className={Styles.textInfoDecoration}
-                style={{ fontSize: "12px", fontWeight: "500" }}
-              >
-                www.linkedin.com/in/iordache-catalin-a99396238
+              <div className={Styles.textInfoDecoration}>
+                <a
+                  className={Styles.textInfoDecoration}
+                  style={{ fontSize: "12px", fontWeight: "500" }}
+                  href="https://www.linkedin.com/in/iordache-catalin-a99396238/"
+                  rel="noreferrer Iordache Catalin personal profile linkedin webpage"
+                  target="_blank"
+                >
+                  www.linkedin.com/in/iordache-catalin-a99396238
+                </a>
                 <FontAwesomeIcon
                   className={Styles.FontAwesome}
                   icon={faLinkedin}
@@ -118,7 +135,15 @@ function firstPage() {
                 />
               </div>
               <div className={Styles.textInfoDecoration}>
-                https://github.com/IordacheCatalin
+                <a
+                  style={{ fontSize: "12px", fontWeight: "500" }}
+                  className={Styles.textInfoDecoration}
+                  href="https://github.com/IordacheCatalin?tab=repositories"
+                  rel="noreferrer Iordache Catalin personal github webpage"
+                  target="_blank"
+                >
+                  https://github.com/IordacheCatalin
+                </a>
                 <FontAwesomeIcon
                   className={Styles.FontAwesome}
                   icon={faGithub}
@@ -130,7 +155,16 @@ function firstPage() {
                 />
               </div>
               <div className={Styles.textInfoDecoration}>
-                Romania , Jud. Ilfov , Com. Chiajna , Sat Rosu
+                <a
+                  style={{ fontSize: "12px", fontWeight: "500" }}
+                  className={Styles.textInfoDecoration}
+                  href="https://goo.gl/maps/Nhh8bQ6Bw7uXCnNZ6"
+                  rel="noreferrer Iordache Catalin location"
+                  target="_blank"
+                >
+                  Romania , Jud. Ilfov , Com. Chiajna , Sat Rosu
+                </a>
+
                 <FontAwesomeIcon
                   className={Styles.FontAwesome}
                   icon={faLocationDot}
@@ -429,25 +463,30 @@ function firstPage() {
                 (May 2022 - Sep 2022)
               </span>
             </div>
-            <div className={StylesRight.textDecorationTitle}>
-            University Spiru Haret of Bucharest 
+            <div>
+              <a
+                className={StylesRight.textDecorationTitle}
+                href="https://sjea-dj.spiruharet.ro/"
+                target="_blank"
+                rel="Universitatea Spiru Haret noreferrer"
+              >
+                University Spiru Haret of Bucharest
+              </a>
             </div>
             <div className={StylesRight.textDecoration}>
-              Finante si Banci {" "}
+              Finante si Banci{" "}
               <span style={{ color: "#007aab", fontWeight: "500" }}>
                 (2004 - 2008)
               </span>
-                           
             </div>
             <div className={StylesRight.textDecorationTitle}>
-            Iuliu Maniu Technical College Bucharest Real Profile 
+              Iuliu Maniu Technical College Bucharest Real Profile
             </div>
             <div className={StylesRight.textDecoration}>
-              Matematica Infromatica {" "}
+              Matematica Infromatica{" "}
               <span style={{ color: "#007aab", fontWeight: "500" }}>
                 (2000 - 2004)
               </span>
-                           
             </div>
             <div className={StylesRight.DetailInBox}>
               <span style={{ color: "Black", fontSize: "1em" }}>
@@ -466,48 +505,76 @@ function firstPage() {
             </div>
 
             <div className={StylesRight.textDecorationTitle}>
-            Sales Director & Owner
+              Sales Director & Owner
             </div>
-            <div className={StylesRight.textDecoration}>
-            S.C. Viking Tools SRL · Full-time {" "}
+            <div>
+              <a
+                className={StylesRight.textDecoration}
+                href="https://www.outlet-ieftin.ro/"
+                target="_blank"
+                rel="Curriculum IT School Web Development noreferrer"
+              >
+                S.C. Viking Tools SRL · Full-time
+              </a>
               <span style={{ color: "#007aab", fontWeight: "500" }}>
                 (2014 - 2022)
               </span>
-                           
+            </div>
+            <div className={StylesRight.textDecoration}>
+              This job brought me the satisfaction of creating a business with
+              zero starting point in to a business with its own sales platform
+              (www.outlet-ieftin.ro), a partnership with Emag MarketPlace for
+              over 7 years until present and a warehouse with over 5000 items in
+              stock.
             </div>
             <div></div>
 
             <div className={StylesRight.textDecorationTitle}>
-           
-            PC Service Technician, Administrator
+              PC Service Technician, Administrator
             </div>
             <div className={StylesRight.textDecoration}>
-            SC Experince Center SRL · Full-time {" "}
+              SC Experince Center SRL · Full-time{" "}
               <span style={{ color: "#007aab", fontWeight: "500" }}>
                 (2009 - 2016)
               </span>
-                           
+            </div>
+
+            <div className={StylesRight.textDecoration}>
+              TIn this job I acquired skills and knowledge about: PC components,
+              assembling a PC, compatibility of components, how the components
+              work at chip level. Assembling and disassembling laptops,
+              maintainance and changing their various components. Installing
+              software applications, installing peripheral units (printers,
+              copiers, routers) Administrator role, creation of local networks
+              with shared devices.
             </div>
 
             <div className={StylesRight.textDecorationTitle}>
-            Technical Services Specialist
+              Technical Services Specialist
             </div>
             <div className={StylesRight.textDecoration}>
-            RCS & RDS · Full-time {" "}
+              RCS & RDS · Full-time{" "}
               <span style={{ color: "#007aab", fontWeight: "500" }}>
                 (2006 - 2009)
               </span>
-                           
-            </div>
-            <div className={StylesRight.textDecorationTitle}>
-            Technical Services Specialist
             </div>
             <div className={StylesRight.textDecoration}>
-            SC Estel Network SRL · Full-time {" "}
+              Installer and internet service on cable and fiber optic.
+            </div>
+
+            <div className={StylesRight.textDecorationTitle}>
+              Technical Services Specialist
+            </div>
+            <div className={StylesRight.textDecoration}>
+              SC Estel Network SRL · Full-time{" "}
               <span style={{ color: "#007aab", fontWeight: "500" }}>
                 (2004 - 2006)
               </span>
-                           
+            </div>
+
+            <div className={StylesRight.textDecoration}>
+              Assembly and installation of telecommunications networks.
+              Installation of video surveillance systems.
             </div>
 
             <div className={StylesRight.DetailInBox}>
@@ -527,19 +594,25 @@ function firstPage() {
             </div>
 
             <div className={StylesRight.textDecorationTitle}>
-            Traian Stanciu - Senior Software Engineer
+              Traian Stanciu - Senior Software Engineer
             </div>
             <div className={StylesRight.textDecoration}>
-            <FontAwesomeIcon
+              <FontAwesomeIcon
                 className={StylesRight.FontAwesome}
                 icon={faLinkedin}
                 style={{ color: "Black", fontSize: "1.5em" }}
               />
               <span> </span>
-             linkedin.com/in/traian-stanciu
-                                    
+              <a
+                className={StylesRight.textDecoration}
+                href="https://www.linkedin.com/in/traian-stanciu/"
+                rel="noreferrer Link profesor Traian Stanciu"
+                target="_blank"
+              >
+                {" "}
+                Linkedin Traian Stanciu{" "}
+              </a>
             </div>
-            
           </div>
         </div>
       </div>
