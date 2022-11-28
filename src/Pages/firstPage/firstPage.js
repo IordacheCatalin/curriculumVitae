@@ -19,20 +19,27 @@ import { faPersonArrowDownToLine } from "@fortawesome/free-solid-svg-icons";
 import ProgressBar from "@ramonak/react-progress-bar";
 function firstPage() {
   return (
-
     <>
-     <PopupTimed/>
-        <div className={Styles.container}>
-          
+      <PopupTimed />
+      <div className={Styles.container}>
         <div className={Styles.leftSide}>
-       
-          <div className={Styles.space}><img src={Logo} className={Styles.imgLogo} alt="Iordache Catalin logo"/></div>
+          <div className={Styles.space}>
+            <img
+              src={Logo}
+              className={Styles.imgLogo}
+              alt="Iordache Catalin logo"
+            />
+          </div>
           <div>
             <div
               className={Styles.DetailBox}
               style={{ backgroundColor: "#21395b" }}
             >
-              <img className={Styles.imgProfile} src={ProfilePhoto} alt="profile photography" />
+              <img
+                className={Styles.imgProfile}
+                src={ProfilePhoto}
+                alt="profile photography"
+              />
               <h1 className={Styles.textDecoration}>Iordache Catalin</h1>
               <h3 className={Styles.textDecoration}>Junior Web Developer</h3>
               <br></br>
@@ -335,19 +342,28 @@ function firstPage() {
         </div>
 
         <div className={Styles.rightSide}>
-        <div className={Styles.space}><img src={Logo} className={Styles.imgLogo} alt="Iordache Catalin logo"/></div>
+          <div className={Styles.space}>
+            <img
+              src={Logo}
+              className={Styles.imgLogo}
+              alt="Iordache Catalin logo"
+            />
+          </div>
           <div>
             <div
               className={Styles.DetailBox}
               style={{ backgroundColor: "#21395b" }}
             >
-              
+              <img
+                className={Styles.imgProfile}
+                src={ProfilePhoto}
+                alt="profile photography"
+              />
               <h1 className={Styles.textDecoration}>Iordache Catalin</h1>
               <h3 className={Styles.textDecoration}>Junior Web Developer</h3>
               <br></br>
             </div>
           </div>
-          
         </div>
       </div>
     </>
