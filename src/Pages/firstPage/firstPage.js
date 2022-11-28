@@ -407,11 +407,11 @@ function firstPage() {
             <div className={StylesRight.textDecoration}>
               My journey in Web Development started at the end of 2021, when
               driven by a discovered passion I ended my career as entrepreneur
-              and started exploring the web development programming. I am very
-              ambitious and hardworking man, with initiative and proven skills
-              when comes to problem solving and tackling challenges head-on,
-              always having in mind the main priority: accomplishing my tasks
-              and continue my path of learning experiences.
+              in 2022 and started exploring the web development programming. I
+              am very ambitious and hardworking man, with initiative and proven
+              skills when comes to problem solving and tackling challenges
+              head-on, always having in mind the main priority: accomplishing my
+              tasks and continue my path of learning experiences.
             </div>
             <div className={StylesRight.textDecoration}>
               As of now I am able to create websites from front-to-back, and
@@ -540,7 +540,7 @@ function firstPage() {
             </div>
 
             <div className={StylesRight.textDecoration}>
-              TIn this job I acquired skills and knowledge about: PC components,
+              In this job I acquired skills and knowledge about: PC components,
               assembling a PC, compatibility of components, how the components
               work at chip level. Assembling and disassembling laptops,
               maintainance and changing their various components. Installing
