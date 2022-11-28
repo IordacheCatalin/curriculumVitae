@@ -19,6 +19,7 @@ import { faGaugeHigh } from "@fortawesome/free-solid-svg-icons";
 import { faPersonArrowDownToLine } from "@fortawesome/free-solid-svg-icons";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
+import { faBriefcaseClock } from "@fortawesome/free-solid-svg-icons";
 
 import ProgressBar from "@ramonak/react-progress-bar";
 function firstPage() {
@@ -409,7 +410,7 @@ function firstPage() {
             </a>
             <div className={StylesRight.textDecoration}>
               SELF-TAUGHT{" "}
-              <span style={{ color: "#00b7ff", fontWeight: "500" }}>
+              <span style={{ color: "#007aab", fontWeight: "500" }}>
                 (Nov 2022 - Apr 2023)
               </span>
             </div>
@@ -423,7 +424,7 @@ function firstPage() {
             </a>
             <div className={StylesRight.textDecoration}>
               SELF-TAUGHT{" "}
-              <span style={{ color: "#00b7ff", fontWeight: "500" }}>
+              <span style={{ color: "#007aab", fontWeight: "500" }}>
                 (May 2022 - Sep 2022)
               </span>
             </div>
@@ -432,7 +433,7 @@ function firstPage() {
             </div>
             <div className={StylesRight.textDecoration}>
               Finante si Banci {" "}
-              <span style={{ color: "#00b7ff", fontWeight: "500" }}>
+              <span style={{ color: "#007aab", fontWeight: "500" }}>
                 (2004 - 2008)
               </span>
                            
@@ -442,8 +443,68 @@ function firstPage() {
             </div>
             <div className={StylesRight.textDecoration}>
               Matematica Infromatica {" "}
-              <span style={{ color: "#00b7ff", fontWeight: "500" }}>
+              <span style={{ color: "#007aab", fontWeight: "500" }}>
                 (2000 - 2004)
+              </span>
+                           
+            </div>
+            <div className={StylesRight.DetailInBox}>
+              <span style={{ color: "Black", fontSize: "1em" }}>
+                {" "}
+                WORK EXPERIENCE
+              </span>
+
+              <span> </span>
+              <div className={StylesRight.line3}> </div>
+              <span> </span>
+              <FontAwesomeIcon
+                className={StylesRight.FontAwesome}
+                icon={faBriefcaseClock}
+                style={{ color: "Black", fontSize: "1.5em" }}
+              />
+            </div>
+
+            <div className={StylesRight.textDecorationTitle}>
+            Sales Director & Owner
+            </div>
+            <div className={StylesRight.textDecoration}>
+            S.C. Viking Tools SRL · Full-time {" "}
+              <span style={{ color: "#007aab", fontWeight: "500" }}>
+                (2014 - 2022)
+              </span>
+                           
+            </div>
+            <div></div>
+
+            <div className={StylesRight.textDecorationTitle}>
+           
+            PC Service Technician, Administrator
+            </div>
+            <div className={StylesRight.textDecoration}>
+            SC Experince Center SRL · Full-time {" "}
+              <span style={{ color: "#007aab", fontWeight: "500" }}>
+                (2009 - 2016)
+              </span>
+                           
+            </div>
+
+            <div className={StylesRight.textDecorationTitle}>
+            Technical Services Specialist
+            </div>
+            <div className={StylesRight.textDecoration}>
+            RCS & RDS · Full-time {" "}
+              <span style={{ color: "#007aab", fontWeight: "500" }}>
+                (2006 - 2009)
+              </span>
+                           
+            </div>
+            <div className={StylesRight.textDecorationTitle}>
+            Technical Services Specialist
+            </div>
+            <div className={StylesRight.textDecoration}>
+            SC Estel Network SRL · Full-time {" "}
+              <span style={{ color: "#007aab", fontWeight: "500" }}>
+                (2004 - 2006)
               </span>
                            
             </div>

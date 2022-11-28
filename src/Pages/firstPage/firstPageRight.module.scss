@@ -17,7 +17,7 @@
     font-family: "IBM Plex Sans", sans-serif;
     font-weight: 500;
     font-size: 22px;
-    padding: 6px 12px 6px 12px;
+    padding: 16px 12px 16px 12px;
     margin-top: 10px;
    }
     .textDecoration {
@@ -33,7 +33,7 @@
     font-family: "IBM Plex Sans", sans-serif;
     font-weight: 600;
     font-size: 16px;
-    padding: 6px 12px 6px 12px;
+    padding: 16px 12px 16px 12px;
     text-align: justify;
     text-justify: inter-word;
     text-decoration: none;
@@ -55,6 +55,13 @@
   }
   .line2 {
     min-width: 260px;
+    height: 1px;
+    background-color: black;
+    display: inline-block;
+    margin-bottom: 6px;
+  }
+  .line3 {
+    min-width: 180px;
     height: 1px;
     background-color: black;
     display: inline-block;
