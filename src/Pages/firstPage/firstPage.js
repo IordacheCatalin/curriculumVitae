@@ -20,6 +20,7 @@ import { faPersonArrowDownToLine } from "@fortawesome/free-solid-svg-icons";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import { faBriefcaseClock } from "@fortawesome/free-solid-svg-icons";
+import { faUserCheck } from "@fortawesome/free-solid-svg-icons";
 
 import ProgressBar from "@ramonak/react-progress-bar";
 function firstPage() {
@@ -507,6 +508,36 @@ function firstPage() {
                 (2004 - 2006)
               </span>
                            
+            </div>
+
+            <div className={StylesRight.DetailInBox}>
+              <span style={{ color: "Black", fontSize: "1em" }}>
+                {" "}
+                REFERENCE
+              </span>
+
+              <span> </span>
+              <div className={StylesRight.line4}> </div>
+              <span> </span>
+              <FontAwesomeIcon
+                className={StylesRight.FontAwesome}
+                icon={faUserCheck}
+                style={{ color: "Black", fontSize: "1.5em" }}
+              />
+            </div>
+
+            <div className={StylesRight.textDecorationTitle}>
+            Traian Stanciu - Senior Software Engineer
+            </div>
+            <div className={StylesRight.textDecoration}>
+            <FontAwesomeIcon
+                className={StylesRight.FontAwesome}
+                icon={faLinkedin}
+                style={{ color: "Black", fontSize: "1.5em" }}
+              />
+              <span> </span>
+             linkedin.com/in/traian-stanciu
+                                    
             </div>
             
           </div>
