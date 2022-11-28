@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/curriculumVitae/static/css/main.4e49c6e1.css",
-    "main.js": "/curriculumVitae/static/js/main.19b140bc.js",
+    "main.css": "/curriculumVitae/static/css/main.7c38c6a2.css",
+    "main.js": "/curriculumVitae/static/js/main.b08176f8.js",
     "static/media/Profile.jpg": "/curriculumVitae/static/media/Profile.b0361761531cf699d3d3.jpg",
     "index.html": "/curriculumVitae/index.html",
-    "main.4e49c6e1.css.map": "/curriculumVitae/static/css/main.4e49c6e1.css.map",
-    "main.19b140bc.js.map": "/curriculumVitae/static/js/main.19b140bc.js.map"
+    "main.7c38c6a2.css.map": "/curriculumVitae/static/css/main.7c38c6a2.css.map",
+    "main.b08176f8.js.map": "/curriculumVitae/static/js/main.b08176f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e49c6e1.css",
-    "static/js/main.19b140bc.js"
+    "static/css/main.7c38c6a2.css",
+    "static/js/main.b08176f8.js"
   ]
 }
