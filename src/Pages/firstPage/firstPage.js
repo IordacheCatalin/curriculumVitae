@@ -26,7 +26,7 @@ import ProgressBar from "@ramonak/react-progress-bar";
 function firstPage() {
   return (
     <>
-      {/* <PopupTimed /> */}
+      <PopupTimed />
       <div className={Styles.container}>
         <div className={Styles.leftSide}>
           <div className={Styles.space}>
