@@ -1,6 +1,7 @@
 import Styles from "../firstPage/firstPageLeft.module.scss";
 import StylesRight from "../firstPage/firstPageRight.module.scss";
 import ProfilePhoto from "../../Assets/img/Profile.jpg";
+import DiplomaItSchool from "../../Assets/img/Diploma.jpg";
 import Logo from "../../Assets/img/logo.png";
 import PopupTimed from "../../Components/Popup/popupTimed";
 
@@ -16,6 +17,8 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faGaugeHigh } from "@fortawesome/free-solid-svg-icons";
 import { faPersonArrowDownToLine } from "@fortawesome/free-solid-svg-icons";
+import { faUser } from "@fortawesome/free-solid-svg-icons";
+import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 
 import ProgressBar from "@ramonak/react-progress-bar";
 function firstPage() {
@@ -57,6 +60,7 @@ function firstPage() {
               <span> </span>
               <div className={Styles.line}></div>
               <span style={{ color: "white", fontSize: "1em" }}> CONTACT</span>
+
               <div className={Styles.textInfoDecoration}>
                 +40 774.465.397
                 <FontAwesomeIcon
@@ -81,7 +85,10 @@ function firstPage() {
                   }}
                 />
               </div>
-              <div className={Styles.textInfoDecoration}>
+              <div
+                className={Styles.textInfoDecoration}
+                style={{ fontSize: "12px", fontWeight: "500" }}
+              >
                 https://iordachecatalin.github.io/curriculumVitae/
                 <FontAwesomeIcon
                   className={Styles.FontAwesome}
@@ -93,7 +100,10 @@ function firstPage() {
                   }}
                 />
               </div>
-              <div className={Styles.textInfoDecoration}>
+              <div
+                className={Styles.textInfoDecoration}
+                style={{ fontSize: "12px", fontWeight: "500" }}
+              >
                 www.linkedin.com/in/iordache-catalin-a99396238
                 <FontAwesomeIcon
                   className={Styles.FontAwesome}
@@ -343,12 +353,100 @@ function firstPage() {
         </div>
 
         <div className={Styles.rightSide}>
-          <div className={Styles.space}>
-          </div>
+          <div className={Styles.space}></div>
           <div className={StylesRight.DetailBox}>
+            <div className={StylesRight.DetailInBox}>
+              <span style={{ color: "Black", fontSize: "1em" }}> ABOUT ME</span>
 
+              <span> </span>
+              <div className={StylesRight.line}> </div>
+              <span> </span>
+              <FontAwesomeIcon
+                className={StylesRight.FontAwesome}
+                icon={faUser}
+                style={{ color: "Black", fontSize: "1.5em" }}
+              />
+            </div>
 
+            <div className={StylesRight.textDecoration}>
+              My journey in Web Development started at the end of 2021, when
+              driven by a discovered passion I ended my career as entrepreneur
+              and started exploring the web development programming. I am very
+              ambitious and hardworking man, with initiative and proven skills
+              when comes to problem solving and tackling challenges head-on,
+              always having in mind the main priority: accomplishing my tasks
+              and continue my path of learning experiences.
+            </div>
+            <div className={StylesRight.textDecoration}>
+              As of now I am able to create websites from front-to-back, and
+              also using tools such as different content management systems or
+              development systems. Currently, I deep dive in the front end
+              development to become a full-stack web developer.
+            </div>
 
+            <div className={StylesRight.DetailInBox}>
+              <span style={{ color: "Black", fontSize: "1em" }}>
+                {" "}
+                EDUCATION
+              </span>
+
+              <span> </span>
+              <div className={StylesRight.line2}> </div>
+              <span> </span>
+              <FontAwesomeIcon
+                className={StylesRight.FontAwesome}
+                icon={faGraduationCap}
+                style={{ color: "Black", fontSize: "1.5em" }}
+              />
+            </div>
+            <a
+              className={StylesRight.textDecorationTitle}
+              href="https://scoalainformala.ro/cursuri/cursuri-programare-back-end-online/cursuri-net-developer-aplicatii-web/net-development-curriculum/"
+              target="_blank"
+              rel="Curriculum scoala informala de it .Net Development noreferrer"
+            >
+              .Net Development | Scoala informala de IT
+            </a>
+            <div className={StylesRight.textDecoration}>
+              SELF-TAUGHT{" "}
+              <span style={{ color: "#00b7ff", fontWeight: "500" }}>
+                (Nov 2022 - Apr 2023)
+              </span>
+            </div>
+            <a
+              className={StylesRight.textDecorationTitle}
+              href="https://www.itschool.ro/cursuri/curs-web-development-online"
+              target="_blank"
+              rel="Curriculum IT School Web Development noreferrer"
+            >
+              .Web Development | IT School
+            </a>
+            <div className={StylesRight.textDecoration}>
+              SELF-TAUGHT{" "}
+              <span style={{ color: "#00b7ff", fontWeight: "500" }}>
+                (May 2022 - Sep 2022)
+              </span>
+            </div>
+            <div className={StylesRight.textDecorationTitle}>
+            University Spiru Haret of Bucharest 
+            </div>
+            <div className={StylesRight.textDecoration}>
+              Finante si Banci {" "}
+              <span style={{ color: "#00b7ff", fontWeight: "500" }}>
+                (2004 - 2008)
+              </span>
+                           
+            </div>
+            <div className={StylesRight.textDecorationTitle}>
+            Iuliu Maniu Technical College Bucharest Real Profile 
+            </div>
+            <div className={StylesRight.textDecoration}>
+              Matematica Infromatica {" "}
+              <span style={{ color: "#00b7ff", fontWeight: "500" }}>
+                (2000 - 2004)
+              </span>
+                           
+            </div>
             
           </div>
         </div>
