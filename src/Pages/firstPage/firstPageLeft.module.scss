@@ -172,41 +172,41 @@ img:hover {
 .barCompleted {
   display: flex;
   justify-content: flex-end;
-  background-color: #127bd3;
+  background-color: #00b7ff;
   width: 95%;
 }
 .barCompleted2 {
   display: flex;
   justify-content: flex-end;
-  background-color: #127bd3;
+  background-color: #00b7ff;
   width: 85%;
 }
 
 .barCompleted3 {
   display: flex;
   justify-content: flex-end;
-  background-color: #127bd3;
+  background-color: #00b7ff;
   width: 90%;
 }
 
 .barCompleted4 {
   display: flex;
   justify-content: flex-end;
-  background-color: #127bd3;
+  background-color: #00b7ff;
   width: 65%;
 }
 
 .barCompleted5 {
   display: flex;
   justify-content: flex-end;
-  background-color: #127bd3;
+  background-color: #00b7ff;
   width: 98%;
 }
 
 .barCompleted6 {
   display: flex;
   justify-content: flex-end;
-  background-color: #127bd3;
+  background-color: #00b7ff;
   width: 70%;
 }
 
@@ -218,10 +218,17 @@ img:hover {
   margin-right: 10px;
 }
 
+.wrapper:hover {
+  .label {
+    transform: translateX(-60px);
+    transition-timing-function: ease-in-out;
+    transition: 0.3s;
+  }
+}
+
 @media only screen and (max-width: 820px) {
   .DetailBox {
-    margin-right: auto;
-    max-width: 550px;
+    margin: 0 auto;
   }
   .leftSide {
     background-color: #21395b;

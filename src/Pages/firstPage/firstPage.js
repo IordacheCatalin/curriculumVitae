@@ -1,4 +1,5 @@
-import Styles from "../firstPage/firstPage.module.scss";
+import Styles from "../firstPage/firstPageLeft.module.scss";
+import StylesRight from "../firstPage/firstPageRight.module.scss";
 import ProfilePhoto from "../../Assets/img/Profile.jpg";
 import Logo from "../../Assets/img/logo.png";
 import PopupTimed from "../../Components/Popup/popupTimed";
@@ -343,26 +344,12 @@ function firstPage() {
 
         <div className={Styles.rightSide}>
           <div className={Styles.space}>
-            <img
-              src={Logo}
-              className={Styles.imgLogo}
-              alt="Iordache Catalin logo"
-            />
           </div>
-          <div>
-            <div
-              className={Styles.DetailBox}
-              style={{ backgroundColor: "#21395b" }}
-            >
-              <img
-                className={Styles.imgProfile}
-                src={ProfilePhoto}
-                alt="profile photography"
-              />
-              <h1 className={Styles.textDecoration}>Iordache Catalin</h1>
-              <h3 className={Styles.textDecoration}>Junior Web Developer</h3>
-              <br></br>
-            </div>
+          <div className={StylesRight.DetailBox}>
+
+
+
+            
           </div>
         </div>
       </div>

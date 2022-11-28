@@ -4,7 +4,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 
 function Popup() {
-  const [buttonPopup, setButtonPopup] = useState(false);
+
   const [timedPop, setTimedPop] = useState(false);
 
   useEffect(() => {
@@ -16,7 +16,9 @@ function Popup() {
   return (
     <div>
       <Pop trigger={timedPop} setTrigger={setTimedPop}>
+        <div className={Styles.TitleBox}>
         <h3 className={Styles.fontText}>Let's stay in touch !</h3>
+        </div>
         <p className={Styles.fontTextP}>
           Thank you for visiting my profile. Connect with me, together we can do
           great things.
