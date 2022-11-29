@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,600;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200;1,500&display=swap");
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 16px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  font-family: "IBM Plex Sans", sans-serif;
+  width: 100%;
+  height: 100vh;
+  padding-top: 100px;
+}
+
+.Title {
+  margin: 0 auto 60px auto;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+.detailsText {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 24px;
+  margin-top: 8px;
+}
+.detailsSpacing {
+  padding-bottom: 32px;
+}
+.Box {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.inputs {
+  display: flex;
+  max-width: 100%;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  flex: 1;
+  padding-top: 80px;
+}
+
+.input {
+  height: 34px;
+  background-color: #337ab7;
+  color: rgb(255, 255, 255);
+  font-family: "IBM Plex Sans", sans-serif;
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 8px;
+}
+
+.input::placeholder {
+  color: rgb(221, 221, 221);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.inputTextArea {
+  height: 150px;
+  background-color: #337ab7;
+  color: rgb(255, 255, 255);
+  font-family: "IBM Plex Sans", sans-serif;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 8px;
+}
+.inputTextArea::placeholder {
+  color: rgb(221, 221, 221);
+}
+
+.form {
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+  padding: 20px;
+  width: 380px;
+}
+
+.label {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 4px;
+  margin-top: 10px;
+  letter-spacing: 3px;
+}
+
+.sendButton {
+  margin-top: 15px;
+  height: 40px;
+  width: 50%;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+  background-color: #337ab7;
+  border-radius: 8px;
+}
+.sendButton:hover {
+  box-shadow: 0px 0px 2px 2px #ffffff;
+  cursor: pointer;
+}
+.sendButton:active {
+  box-shadow: 0px 0px 4px 4px #949292;
+  cursor: pointer;
+}
+
+.altSendButton {
+  width: 100%;
+  height: 34px;
+  transition: all 0.2s ease-in-out;
+}
+.FontAwesome {
+  margin-top: 4px;
+  height: 22px;
+  transition: all 0.2s ease-in-out;
+  color: white;
+}
+.altSendButton:hover {
+  transform: translate3d(0px, -35px, 0px);
+}
+
+.sendText {
+  display: block;
+  margin-top: 2px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  color: white;
+  text-shadow: 0 1px 0 #ccc, 0 1px 0 #c9c9c9, 0 2px 0 #bbb, 0 2px 0 #b9b9b9,
+    0 3px 0 #aaa, 0 4px 1px rgba(0, 0, 0, 0.1), 0 0 3px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+@media only screen and (max-width: 900px) {
+  .inputs {
+    justify-content: center;
+  }
+  .details {
+    align-items: center;
+    padding-top: 10px;
+  }
+  .detailsSpacing {
+    width: 380px;
+  }
+  .detailsText {
+    font-size: 18px;
+  }
+  .container {
+    padding-top: 0px;
+    flex-direction: row;
+  }
+  .Title {
+    font-size: 24px;
+    margin:auto;
+    
+  }
+  .Box {
+       gap: 0px;
+    
+  }
+ 
+}

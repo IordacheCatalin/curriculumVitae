@@ -5,6 +5,8 @@ import DiplomaItSchool from "../../Assets/img/Diploma.jpg";
 import Logo from "../../Assets/img/logo.png";
 import PopupTimed from "../../Components/Popup/popupTimed";
 
+import Contact from "../../Pages/contact/contact";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAddressBook } from "@fortawesome/free-solid-svg-icons";
 import { faEarthAmericas } from "@fortawesome/free-solid-svg-icons";
@@ -28,7 +30,7 @@ function firstPage() {
     <>
       <PopupTimed />
       <div className={Styles.container}>
-        <div className={Styles.leftSide}>
+         <div className={Styles.leftSide}>
           <div className={Styles.space}>
             <img
               src={Logo}
@@ -616,6 +618,7 @@ function firstPage() {
           </div>
         </div>
       </div>
+      <Contact></Contact>
     </>
   );
 }
