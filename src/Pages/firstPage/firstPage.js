@@ -24,6 +24,7 @@ import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import { faBriefcaseClock } from "@fortawesome/free-solid-svg-icons";
 import { faUserCheck } from "@fortawesome/free-solid-svg-icons";
 
+import { Link } from "react-router-dom";
 import ProgressBar from "@ramonak/react-progress-bar";
 function firstPage() {
   return (
@@ -63,8 +64,8 @@ function firstPage() {
               />
               <span> </span>
               <div className={Styles.line}></div>
-              <a href="/contact" >
-              <button className={Styles.button}> CONTACT</button></a>
+              <Link to="/contact" >
+              <button className={Styles.button}> CONTACT</button></Link>
 
               <div className={Styles.textInfoDecoration}>
                 +40 774.465.397
