@@ -63,7 +63,8 @@ function firstPage() {
               />
               <span> </span>
               <div className={Styles.line}></div>
-              <span style={{ color: "white", fontSize: "1em" }}> CONTACT</span>
+              <a href="/contact" >
+              <button className={Styles.button}> CONTACT</button></a>
 
               <div className={Styles.textInfoDecoration}>
                 +40 774.465.397
