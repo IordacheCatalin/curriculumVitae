@@ -4,14 +4,8 @@ import React from "react";
 function Pop(props) {
   return props.trigger ? (
     <div className={Styles.popup}>
-      <div className={Styles.popupInner}>
-        <button
-          className={Styles.closeBtn}
-          onClick={() => props.setTrigger(false)}
-        >
-          X
-        </button>
-        {props.children}
+      <div className={Styles.popupInner} onClick={() => props.setTrigger(false)}>
+              {props.children}
       </div>
     </div>
   ) : (
