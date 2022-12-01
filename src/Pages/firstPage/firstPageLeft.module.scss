@@ -52,6 +52,7 @@ body {
   width: 380px;
   margin-right: 0px;
   margin-left: auto;
+  
 }
 
 .line {
@@ -83,6 +84,7 @@ body {
   border: solid 8px #0e8cf1;
   object-fit: cover;
   margin-top: 24px;
+  margin-bottom: 14px;
   opacity: 0.92;
 }
 
@@ -99,6 +101,7 @@ body {
   font-family: "IBM Plex Sans", sans-serif;
   opacity: 0.8;
   font-weight: 400;
+ 
 }
 .textDecoration:hover {
   opacity: 1;
@@ -147,7 +150,7 @@ body {
   font-size: 16px;
   opacity: 0.8;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .DetailInBox:hover {
@@ -201,6 +204,20 @@ body {
 }
 
 .barCompleted6 {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #00b7ff;
+  width: 70%;
+}
+
+.barCompleted7 {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #00b7ff;
+  width: 50%;
+}
+
+.barCompleted8 {
   display: flex;
   justify-content: flex-end;
   background-color: #00b7ff;

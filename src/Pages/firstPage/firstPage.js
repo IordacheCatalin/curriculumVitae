@@ -31,7 +31,7 @@ function firstPage() {
     <>
       <PopupTimed />
       <div className={Styles.container}>
-         <div className={Styles.leftSide}>
+        <div className={Styles.leftSide}>
           <div className={Styles.space}>
             <img
               src={Logo}
@@ -49,9 +49,13 @@ function firstPage() {
                 src={ProfilePhoto}
                 alt="profile photography"
               />
-              <h1 className={Styles.textDecoration}>Iordache Catalin</h1>
-              <h3 className={Styles.textDecoration}>Junior Web Developer</h3>
+              <h1 className={Styles.textDecoration} style={{marginBottom:"14px"}}>Iordache Catalin</h1>
+              <h3 className={Styles.textDecoration} style={{marginBottom:"18px"}}>Junior Web Developer</h3>
               <br></br>
+              <div className={StylesRight.scrollcontainer}>
+             <div className={StylesRight.scrolltext}>Open to work ! </div>
+            </div>
+
             </div>
           </div>
 
@@ -64,8 +68,9 @@ function firstPage() {
               />
               <span> </span>
               <div className={Styles.line}></div>
-              <Link to="/contact" >
-              <button className={Styles.button}> CONTACT</button></Link>
+              <Link to="/contact">
+                <button className={Styles.button}> CONTACT</button>
+              </Link>
 
               <div className={Styles.textInfoDecoration}>
                 +40 774.465.397
@@ -231,7 +236,7 @@ function firstPage() {
               <span style={{ color: "white", fontSize: "1em" }}> SKILL</span>
               <div
                 className={Styles.textInfoDecoration}
-                style={{ marginBottom: "5px" }}
+                style={{ marginBottom: "10px" }}
               >
                 ReactJS
               </div>
@@ -247,7 +252,7 @@ function firstPage() {
 
               <div
                 className={Styles.textInfoDecoration}
-                style={{ marginBottom: "5px" }}
+                style={{ marginBottom: "10px" }}
               >
                 Git
               </div>
@@ -263,9 +268,9 @@ function firstPage() {
 
               <div
                 className={Styles.textInfoDecoration}
-                style={{ marginBottom: "5px" }}
+                style={{ marginBottom: "10px" }}
               >
-                Responsive design , HTML , CSS , SCSS
+                Responsive design , HTML , CSS , SCSS , Bootstrap
               </div>
               <div className={Styles.ProgressBar}>
                 <ProgressBar
@@ -279,7 +284,7 @@ function firstPage() {
 
               <div
                 className={Styles.textInfoDecoration}
-                style={{ marginBottom: "5px" }}
+                style={{ marginBottom: "10px" }}
               >
                 JavaScript
               </div>
@@ -295,23 +300,7 @@ function firstPage() {
 
               <div
                 className={Styles.textInfoDecoration}
-                style={{ marginBottom: "5px" }}
-              >
-                Communication , Adaptability , Creativity
-              </div>
-              <div className={Styles.ProgressBar}>
-                <ProgressBar
-                  completed={"98%"}
-                  className={Styles.wrapper}
-                  barContainerClassName={Styles.barContainer}
-                  completedClassName={Styles.barCompleted5}
-                  labelClassName={Styles.label}
-                />
-              </div>
-
-              <div
-                className={Styles.textInfoDecoration}
-                style={{ marginBottom: "5px" }}
+                style={{ marginBottom: "10px" }}
               >
                 Front-end frameworks
               </div>
@@ -327,21 +316,37 @@ function firstPage() {
 
               <div
                 className={Styles.textInfoDecoration}
-                style={{ marginBottom: "5px" }}
+                style={{ marginBottom: "10px" }}
               >
-                ReactJSvgjv
+                C#, MSSQL, ASP.NET Web Api
+              </div>
+              <div className={Styles.ProgressBar}>
+                <ProgressBar
+                  completed={"WIP"}
+                  className={Styles.wrapper}
+                  barContainerClassName={Styles.barContainer}
+                  completedClassName={Styles.barCompleted7}
+                  labelClassName={Styles.label}
+                />
+              </div>
+
+              <div
+                className={Styles.textInfoDecoration}
+                style={{ marginBottom: "10px" }}
+              >
+                Photoshop
               </div>
               <div className={Styles.ProgressBar}>
                 <ProgressBar
                   completed={"Entry Level"}
                   className={Styles.wrapper}
                   barContainerClassName={Styles.barContainer}
-                  completedClassName={Styles.barCompleted}
+                  completedClassName={Styles.barCompleted8}
                   labelClassName={Styles.label}
                 />
               </div>
 
-              <div
+              {/* <div
                 className={Styles.textInfoDecoration}
                 style={{ marginBottom: "5px" }}
               >
@@ -371,20 +376,19 @@ function firstPage() {
                   completedClassName={Styles.barCompleted}
                   labelClassName={Styles.label}
                 />
-              </div>
-
+              </div> */}
               <div
                 className={Styles.textInfoDecoration}
-                style={{ marginBottom: "5px" }}
+                style={{ marginBottom: "10px" }}
               >
-                ReactJSvgjv
+                Communication , Adaptability , Creativity
               </div>
               <div className={Styles.ProgressBar}>
                 <ProgressBar
-                  completed={"Entry Level"}
+                  completed={"98%"}
                   className={Styles.wrapper}
                   barContainerClassName={Styles.barContainer}
-                  completedClassName={Styles.barCompleted}
+                  completedClassName={Styles.barCompleted5}
                   labelClassName={Styles.label}
                 />
               </div>
@@ -454,6 +458,16 @@ function firstPage() {
               </span>
             </div>
             <a
+              className={StylesRight.textDecoration}
+              href="https://scoalainformala.ro/cursuri/cursuri-programare-back-end-online/cursuri-net-developer-aplicatii-web/net-development-curriculum/"
+              target="_blank"
+              rel="Curriculum scoala informala de it .Net Development noreferrer"
+            >
+              <div style={{ fontStyle: "italic" }}>
+                C#, MSSQL, ASP.NET Web Api, - Click on extended curricula
+              </div>
+            </a>
+            <a
               className={StylesRight.textDecorationTitle}
               href="https://www.itschool.ro/cursuri/curs-web-development-online"
               target="_blank"
@@ -467,16 +481,27 @@ function firstPage() {
                 (May 2022 - Sep 2022)
               </span>
             </div>
-            <div>
-              <a
-                className={StylesRight.textDecorationTitle}
-                href="https://sjea-dj.spiruharet.ro/"
-                target="_blank"
-                rel="Universitatea Spiru Haret noreferrer"
-              >
-                University Spiru Haret of Bucharest
-              </a>
-            </div>
+            <a
+              className={StylesRight.textDecoration}
+              href="https://www.itschool.ro/cursuri/curs-web-development-online"
+              target="_blank"
+              rel="Curriculum scoala informala de it .Net Development noreferrer"
+            >
+              <div style={{ fontStyle: "italic" }}>
+                HTML, CSS, JavaScript, Bootstrap, React - Click on extended
+                curricula
+              </div>
+            </a>
+
+            <a
+              className={StylesRight.textDecorationTitle}
+              href="https://sjea-dj.spiruharet.ro/"
+              target="_blank"
+              rel="Universitatea Spiru Haret noreferrer"
+            >
+              University Spiru Haret of Bucharest
+            </a>
+
             <div className={StylesRight.textDecoration}>
               Finante si Banci{" "}
               <span style={{ color: "#007aab", fontWeight: "500" }}>
