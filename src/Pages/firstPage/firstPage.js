@@ -23,6 +23,7 @@ import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import { faBriefcaseClock } from "@fortawesome/free-solid-svg-icons";
 import { faUserCheck } from "@fortawesome/free-solid-svg-icons";
+import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
 import { Link } from "react-router-dom";
 import ProgressBar from "@ramonak/react-progress-bar";
@@ -53,7 +54,14 @@ function firstPage() {
               <h3 className={Styles.textDecoration} style={{marginBottom:"18px"}}>Junior Web Developer</h3>
               <br></br>
               <div className={StylesRight.scrollcontainer}>
-             <div className={StylesRight.scrolltext}>Open to work ! </div>
+             <div className={StylesRight.scrolltext}> {""} <FontAwesomeIcon
+                className={Styles.FontAwesome}
+                icon={faBriefcase}
+                style={{fontSize:"18px", marginRight:"10px"}}
+              />---Open to work !---<FontAwesomeIcon
+                className={Styles.FontAwesome}
+                icon={faBriefcase}
+                style={{fontSize:"18px"}}/></div>
             </div>
 
             </div>
@@ -77,11 +85,7 @@ function firstPage() {
                 <FontAwesomeIcon
                   className={Styles.FontAwesome}
                   icon={faSquarePhone}
-                  style={{
-                    color: "white",
-                    fontSize: "1.2em",
-                    marginLeft: "10px",
-                  }}
+                  
                 />
               </div>
               <div className={Styles.textInfoDecoration}>
@@ -96,11 +100,7 @@ function firstPage() {
                 <FontAwesomeIcon
                   className={Styles.FontAwesome}
                   icon={faEnvelope}
-                  style={{
-                    color: "white",
-                    fontSize: "1.2em",
-                    marginLeft: "10px",
-                  }}
+                  
                 />
               </div>
               <div className={Styles.textInfoDecoration}>
@@ -116,12 +116,7 @@ function firstPage() {
                 <FontAwesomeIcon
                   className={Styles.FontAwesome}
                   icon={faGlobe}
-                  style={{
-                    color: "white",
-                    fontSize: "1.2em",
-                    marginLeft: "10px",
-                  }}
-                />
+                  />
               </div>
               <div className={Styles.textInfoDecoration}>
                 <a
@@ -136,11 +131,7 @@ function firstPage() {
                 <FontAwesomeIcon
                   className={Styles.FontAwesome}
                   icon={faLinkedin}
-                  style={{
-                    color: "white",
-                    fontSize: "1.2em",
-                    marginLeft: "10px",
-                  }}
+                
                 />
               </div>
               <div className={Styles.textInfoDecoration}>
@@ -156,11 +147,7 @@ function firstPage() {
                 <FontAwesomeIcon
                   className={Styles.FontAwesome}
                   icon={faGithub}
-                  style={{
-                    color: "white",
-                    fontSize: "1.2em",
-                    marginLeft: "10px",
-                  }}
+               
                 />
               </div>
               <div className={Styles.textInfoDecoration}>
@@ -177,11 +164,7 @@ function firstPage() {
                 <FontAwesomeIcon
                   className={Styles.FontAwesome}
                   icon={faLocationDot}
-                  style={{
-                    color: "white",
-                    fontSize: "1.2em",
-                    marginLeft: "10px",
-                  }}
+              
                 />
               </div>
             </span>
@@ -202,11 +185,7 @@ function firstPage() {
                 <FontAwesomeIcon
                   className={Styles.FontAwesome}
                   icon={faGaugeHigh}
-                  style={{
-                    color: "white",
-                    fontSize: "1.2em",
-                    marginLeft: "10px",
-                  }}
+               
                 />
               </div>
               <div className={Styles.textInfoDecoration}>
@@ -214,11 +193,7 @@ function firstPage() {
                 <FontAwesomeIcon
                   className={Styles.FontAwesome}
                   icon={faPersonArrowDownToLine}
-                  style={{
-                    color: "white",
-                    fontSize: "1.2em",
-                    marginLeft: "10px",
-                  }}
+                
                 />
               </div>
             </span>

@@ -140,7 +140,11 @@ export const ContactPage = () => {
               </a>
             </span>
             <span className={Styles.detailsText}>
-              iordache.catalin1986@gmail.com
+            <a className={Styles.detailsText}
+              href="https://iordachecatalin.github.io/curriculumVitae/"
+              rel="noreferrer Iordache Catalin personal profile webpage"
+              target="_blank"
+            >iordache.catalin1986@gmail.com</a>
             </span>
           </div>
           <div className={Styles.line}>
