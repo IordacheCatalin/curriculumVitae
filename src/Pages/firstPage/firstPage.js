@@ -4,6 +4,7 @@ import ProfilePhoto from "../../Assets/img/Profile.jpg";
 import DiplomaItSchool from "../../Assets/img/Diploma.jpg";
 import Logo from "../../Assets/img/logo.png";
 import PopupTimed from "../../Components/Popup/popupTimed";
+import TextScrooling from "../../Components/TextScrooling/textScrooling";
 
 import Contact from "../../Pages/contact/contact";
 
@@ -53,16 +54,7 @@ function firstPage() {
               <h1 className={Styles.textDecoration} style={{marginBottom:"14px"}}>Iordache Catalin</h1>
               <h3 className={Styles.textDecoration} style={{marginBottom:"18px"}}>Junior Web Developer</h3>
               <br></br>
-              <div className={StylesRight.scrollcontainer}>
-             <div className={StylesRight.scrolltext}> {""} <FontAwesomeIcon
-                className={Styles.FontAwesome}
-                icon={faBriefcase}
-                style={{fontSize:"18px", marginRight:"10px"}}
-              />---Open to work !---<FontAwesomeIcon
-                className={Styles.FontAwesome}
-                icon={faBriefcase}
-                style={{fontSize:"18px"}}/></div>
-            </div>
+              <TextScrooling/>
 
             </div>
           </div>

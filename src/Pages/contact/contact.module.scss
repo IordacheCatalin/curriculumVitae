@@ -24,7 +24,7 @@
   font-size: 24px;
   margin-top: 8px;
   text-decoration: none;
-  color:white;
+  color: white;
 }
 .detailsSpacing {
   padding-bottom: 32px;
@@ -187,6 +187,8 @@
   .details {
     align-items: center;
     padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
   .detailsSpacing {
     width: 380px;
@@ -215,9 +217,9 @@
   }
 
   .fontAwesomeIconHoverFirst {
-    padding-left: 12px;
+    margin-left: 12px;
   }
   .fontAwesomeIconHoverLast {
-    padding-right: 12px;
+    margin-right: 12px;
   }
 }

@@ -103,41 +103,4 @@
   }
 }
 
-.scrollcontainer {
-  border: 1px solid rgb(255, 255, 255);
-  border-radius: 8px;
-  overflow: hidden;
-  opacity: 0.9;
-  width: 360px;
-  margin-bottom: 14px;
-}
-.scrollcontainer:hover {
-  opacity: 1;
-}
 
-.scrolltext {
-  font-family: "IBM Plex Sans", sans-serif;
-  font-size: 20px;
-  color: white;
-  padding: 0px 15px 0px 15px;
-  -moz-transform: translateX(100%);
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
-
-  -moz-animation: catalin-scroll 10s linear infinite;
-  -webkit-animation: catalin-scroll 10s linear infinite;
-  animation: catalin-scroll 10s linear infinite;
-}
-
-@keyframes catalin-scroll {
-  from {
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
-  }
-  to {
-    -moz-transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
-  }
-}
