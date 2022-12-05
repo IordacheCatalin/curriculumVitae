@@ -24,7 +24,7 @@ import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import { faBriefcaseClock } from "@fortawesome/free-solid-svg-icons";
 import { faUserCheck } from "@fortawesome/free-solid-svg-icons";
-import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
+
 
 import { Link } from "react-router-dom";
 import ProgressBar from "@ramonak/react-progress-bar";
