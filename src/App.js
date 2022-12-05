@@ -10,7 +10,7 @@ import ContactPage from "../src/Pages/contact/contact"
 
 function App() {
   return (
-<BrowserRouter>
+
   
   <Routes>
   <Route path="/curriculumVitae" element={<FirstPage />} />
@@ -18,7 +18,7 @@ function App() {
   <Route path="/Home" element={<FirstPage />} />
   <Route path="/contact" element={<ContactPage />} />
  </Routes>
-</BrowserRouter>
+
   
   );
 }
