@@ -7,14 +7,14 @@ import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 function TextScrooling () {
     return (
  <div className={Styles.scrollcontainer}>
- <div className={Styles.scrolltext}> {""} <FontAwesomeIcon
+ <div className={Styles.scrolltext}>---<FontAwesomeIcon
     className={Styles.FontAwesome}
     icon={faBriefcase}
-    style={{fontSize:"18px", marginRight:"10px"}}
+    style={{fontSize:"18px"}}
   />---Open to work !---<FontAwesomeIcon
     className={Styles.FontAwesome}
     icon={faBriefcase}
-    style={{fontSize:"18px"}}/></div>
+    style={{fontSize:"18px"}}/>---</div>
 </div>
     )
 }
