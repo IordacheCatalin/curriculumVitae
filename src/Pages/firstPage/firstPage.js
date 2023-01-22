@@ -1,10 +1,12 @@
 import Styles from "../firstPage/firstPageLeft.module.scss";
 import StylesRight from "../firstPage/firstPageRight.module.scss";
 import ProfilePhoto from "../../Assets/img/Profile.jpg";
+import ProfilePhoto2 from "../../Assets/img/Profile2.jpg";
 import DiplomaItSchool from "../../Assets/img/Diploma.jpg";
 import Logo from "../../Assets/img/logo.png";
 import PopupTimed from "../../Components/Popup/popupTimed";
 import TextScrooling from "../../Components/TextScrooling/textScrooling";
+
 
 import Contact from "../../Pages/contact/contact";
 
@@ -711,14 +713,12 @@ function firstPage() {
               Professional Rugby Player
             </div>
             <div>
-              <a
+              <span
                 className={StylesRight.textDecoration}
-                href="https://www.outlet-ieftin.ro/"
-                target="_blank"
-                rel="Curriculum IT School Web Development noreferrer"
+                
               >
                 Rugby Club Dinamo · Full-time
-              </a>
+              </span>
               <span style={{ color: "#007aab", fontWeight: "500" }}>
                 (1987 - 2008)
               </span>
