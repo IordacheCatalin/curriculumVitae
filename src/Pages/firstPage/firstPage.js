@@ -720,7 +720,7 @@ function firstPage() {
                 Rugby Club Dinamo · Full-time
               </span>
               <span style={{ color: "#007aab", fontWeight: "500" }}>
-                (1987 - 2008)
+                (1997 - 2008)
               </span>
             </div>
             <div className={StylesRight.textDecoration}>
