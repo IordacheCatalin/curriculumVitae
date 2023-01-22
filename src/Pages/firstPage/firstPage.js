@@ -17,6 +17,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faSquareGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faGaugeHigh } from "@fortawesome/free-solid-svg-icons";
 import { faPersonArrowDownToLine } from "@fortawesome/free-solid-svg-icons";
@@ -24,7 +25,6 @@ import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import { faBriefcaseClock } from "@fortawesome/free-solid-svg-icons";
 import { faUserCheck } from "@fortawesome/free-solid-svg-icons";
-
 
 import { Link } from "react-router-dom";
 import ProgressBar from "@ramonak/react-progress-bar";
@@ -51,11 +51,20 @@ function firstPage() {
                 src={ProfilePhoto}
                 alt="profile photography"
               />
-              <h1 className={Styles.textDecoration} style={{marginBottom:"14px"}}>Iordache Catalin</h1>
-              <h3 className={Styles.textDecoration} style={{marginBottom:"18px"}}>Junior Web Developer</h3>
+              <h1
+                className={Styles.textDecoration}
+                style={{ marginBottom: "14px" }}
+              >
+                Iordache Catalin
+              </h1>
+              <h3
+                className={Styles.textDecoration}
+                style={{ marginBottom: "18px" }}
+              >
+                Junior Web Developer
+              </h3>
               <br></br>
-              <TextScrooling/>
-
+              <TextScrooling />
             </div>
           </div>
 
@@ -77,7 +86,6 @@ function firstPage() {
                 <FontAwesomeIcon
                   className={Styles.FontAwesome}
                   icon={faSquarePhone}
-                  
                 />
               </div>
               <div className={Styles.textInfoDecoration}>
@@ -92,7 +100,6 @@ function firstPage() {
                 <FontAwesomeIcon
                   className={Styles.FontAwesome}
                   icon={faEnvelope}
-                  
                 />
               </div>
               <div className={Styles.textInfoDecoration}>
@@ -108,7 +115,7 @@ function firstPage() {
                 <FontAwesomeIcon
                   className={Styles.FontAwesome}
                   icon={faGlobe}
-                  />
+                />
               </div>
               <div className={Styles.textInfoDecoration}>
                 <a
@@ -123,7 +130,6 @@ function firstPage() {
                 <FontAwesomeIcon
                   className={Styles.FontAwesome}
                   icon={faLinkedin}
-                
                 />
               </div>
               <div className={Styles.textInfoDecoration}>
@@ -139,7 +145,6 @@ function firstPage() {
                 <FontAwesomeIcon
                   className={Styles.FontAwesome}
                   icon={faGithub}
-               
                 />
               </div>
               <div className={Styles.textInfoDecoration}>
@@ -156,7 +161,6 @@ function firstPage() {
                 <FontAwesomeIcon
                   className={Styles.FontAwesome}
                   icon={faLocationDot}
-              
                 />
               </div>
             </span>
@@ -177,7 +181,6 @@ function firstPage() {
                 <FontAwesomeIcon
                   className={Styles.FontAwesome}
                   icon={faGaugeHigh}
-               
                 />
               </div>
               <div className={Styles.textInfoDecoration}>
@@ -185,7 +188,6 @@ function firstPage() {
                 <FontAwesomeIcon
                   className={Styles.FontAwesome}
                   icon={faPersonArrowDownToLine}
-                
                 />
               </div>
             </span>
@@ -361,6 +363,140 @@ function firstPage() {
               </div>
             </span>
           </div>
+          <div className={Styles.DetailBox}>
+            <span className={Styles.DetailInBox}>
+              <FontAwesomeIcon
+                className={Styles.FontAwesome}
+                icon={faGithub}
+                style={{ color: "white", fontSize: "1.5em" }}
+              />
+              <span> </span>
+              <div className={Styles.line4}></div>
+
+              <span style={{ color: "white", fontSize: "1em" }}>
+                {" "}
+                GitHub Projects
+              </span>
+              <span className={Styles.gitHubPprojects}>
+                <div className={Styles.textInfoDecoration}>
+                  <FontAwesomeIcon
+                    className={Styles.FontAwesome}
+                    icon={faSquareGithub}
+                    style={{
+                      color: "#fb6d3a",
+                      marginBottom: "-8px",
+                      marginRight: "10px",
+                    }}
+                  />
+                  <a
+                    style={{ fontSize: "12px", fontWeight: "500" }}
+                    className={Styles.textInfoDecoration}
+                    href="https://github.com/IordacheCatalin/curriculumVitae"
+                    rel="noreferrer Iordache Catalin personal profile webpage"
+                    target="_blank"
+                  >
+                    {" "}
+                    /curriculumVitae
+                  </a>
+                </div>
+                <div className={Styles.textInfoDecoration}>
+                  <a
+                    style={{ fontSize: "12px", fontWeight: "500" }}
+                    className={Styles.textInfoDecoration}
+                    href="https://github.com/IordacheCatalin/registrationForm"
+                    rel="noreferrer Registration Form"
+                    target="_blank"
+                  >
+                    /registrationForm{" "}
+                  </a>
+                  <FontAwesomeIcon
+                    className={Styles.FontAwesome}
+                    icon={faSquareGithub}
+                    style={{ color: "#fb6d3a", marginBottom: "-8px" }}
+                  />
+                </div>
+              </span>
+
+              <span className={Styles.gitHubPprojects}>
+                <div className={Styles.textInfoDecoration}>
+                  <FontAwesomeIcon
+                    className={Styles.FontAwesome}
+                    icon={faSquareGithub}
+                    style={{
+                      color: "#fb6d3a",
+                      marginBottom: "-8px",
+                      marginRight: "10px",
+                    }}
+                  />
+                  <a
+                    style={{ fontSize: "12px", fontWeight: "500" }}
+                    className={Styles.textInfoDecoration}
+                    href="https://github.com/IordacheCatalin/Random-selector"
+                    rel="noreferrer Randmon-selector"
+                    target="_blank"
+                  >
+                    /Random-selector{" "}
+                  </a>
+                </div>
+                <div className={Styles.textInfoDecoration}>
+                  <a
+                    style={{ fontSize: "12px", fontWeight: "500" }}
+                    className={Styles.textInfoDecoration}
+                    href="https://github.com/IordacheCatalin/CvTemplate"
+                    rel="noreferrer CvTemplate"
+                    target="_blank"
+                  >
+                    /CvTemplate{" "}
+                  </a>
+                  <FontAwesomeIcon
+                    className={Styles.FontAwesome}
+                    icon={faSquareGithub}
+                    style={{ color: "#fb6d3a", marginBottom: "-8px" }}
+                  />
+                </div>
+              </span>
+
+              <span className={Styles.gitHubPprojects}>
+                <div className={Styles.textInfoDecoration}>
+                  <FontAwesomeIcon
+                    className={Styles.FontAwesome}
+                    icon={faSquareGithub}
+                    style={{
+                      color: "#fb6d3a",
+                      marginBottom: "-8px",
+                      marginRight: "10px",
+                    }}
+                  />
+                  <a
+                    style={{ fontSize: "12px", fontWeight: "500" }}
+                    className={Styles.textInfoDecoration}
+                    href="https://github.com/IordacheCatalin/proiectExamen"
+                    rel="noreferrer CvTemplate"
+                    target="_blank"
+                  >
+                    /proiectExamen{" "}
+                  </a>
+                </div>
+
+                <div className={Styles.textInfoDecoration}>
+                  <a
+                    style={{ fontSize: "12px", fontWeight: "500" }}
+                    className={Styles.textInfoDecoration}
+                    href="https://github.com/IordacheCatalin/Tasks"
+                    rel="noreferrer Tasks"
+                    target="_blank"
+                  >
+                    /Tasks{" "}
+                  </a>
+                  <FontAwesomeIcon
+                    className={Styles.FontAwesome}
+                    icon={faSquareGithub}
+                    style={{ color: "#fb6d3a", marginBottom: "-8px" }}
+                  />
+                </div>
+              </span>
+            </span>
+          </div>
         </div>
 
         <div className={Styles.rightSide}>
@@ -523,7 +659,6 @@ function firstPage() {
               over 7 years until present and a warehouse with over 5000 items in
               stock.
             </div>
-            <div></div>
 
             <div className={StylesRight.textDecorationTitle}>
               PC Service Technician, Administrator
@@ -572,6 +707,29 @@ function firstPage() {
               Assembly and installation of telecommunications networks.
               Installation of video surveillance systems.
             </div>
+            <div className={StylesRight.textDecorationTitle}>
+              Professional Rugby Player
+            </div>
+            <div>
+              <a
+                className={StylesRight.textDecoration}
+                href="https://www.outlet-ieftin.ro/"
+                target="_blank"
+                rel="Curriculum IT School Web Development noreferrer"
+              >
+                Rugby Club Dinamo · Full-time
+              </a>
+              <span style={{ color: "#007aab", fontWeight: "500" }}>
+                (1987 - 2008)
+              </span>
+            </div>
+            <div className={StylesRight.textDecoration}>
+              I started my rugby passion at 11 years old in the RC Zimbrii Club
+              in 1997. The RC Zimbrii team joined the team from RC Dinamo where
+              I stayed until the end of my career. During these years I was
+              selected 3 times to the national junior team participating in
+              several world championships (France and Italy).
+            </div>
 
             <div className={StylesRight.DetailInBox}>
               <span style={{ color: "Black", fontSize: "1em" }}>
@@ -609,6 +767,15 @@ function firstPage() {
                 Linkedin Traian Stanciu{" "}
               </a>
             </div>
+            <a
+              className={StylesRight.textDecorationTitle}
+              href="https://www.outlet-ieftin.ro/"
+              rel="noreferrer Link SC Viking Tools SRL WebPage"
+              target="_blank"
+            >
+              {" "}
+              Mavru Mihai Ionel - CEO S.C. Viking Tools S.R.L{" "}
+            </a>
           </div>
         </div>
       </div>

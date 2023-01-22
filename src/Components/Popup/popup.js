@@ -1,5 +1,4 @@
 import Pop from "./pop";
-import Styles from "../../Components/Popup/popup.module.scss";
 import React from "react";
 import {useState, useEffect}   from "react";
 

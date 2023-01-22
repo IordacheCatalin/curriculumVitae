@@ -12,7 +12,7 @@ body {
 .container {
   display: flex;
   max-width: 1024px;
-  min-height: 1540px;
+  min-height: 1695px;
   box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   margin: 60px auto 60px auto;
@@ -57,25 +57,29 @@ body {
 
 .line {
   min-width: 220px;
-  height: 1px;
-  background-color: white;
-  display: inline-block;
-  margin-bottom: 4px;
 }
 
 .line2 {
   min-width: 208px;
-  height: 1px;
-  background-color: white;
-  display: inline-block;
-  margin-bottom: 4px;
 }
 .line3 {
   min-width: 248px;
+}
+
+.line4 {
+  min-width: 180px;
+}
+
+.line, .line2, .line3, .line4 {
   height: 1px;
   background-color: white;
   display: inline-block;
   margin-bottom: 4px;
+} 
+
+.gitHubPprojects {
+  display: flex;
+  justify-content: space-between;
 }
 
 .imgProfile {
@@ -156,7 +160,7 @@ body {
   font-size: 16px;
   opacity: 0.8;
   margin-top: 20px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .DetailInBox:hover {

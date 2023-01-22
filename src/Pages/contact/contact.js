@@ -1,5 +1,5 @@
 import Styles from "../contact/contact.module.scss";
-import React, { useRef } from "react";
+import React, { useRef} from "react";
 import emailjs from "@emailjs/browser";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -43,16 +43,16 @@ export const ContactPage = () => {
       <div className={Styles.Box}>
         <div className={Styles.inputs}>
           <form
-            className={Styles.form}
             ref={form}
             onSubmit={sendEmail}
             id="contact-form"
+            className={Styles.form}
           >
             <label className={Styles.label}>Name</label>
             <input
               className={Styles.input}
               type="text"
-              name="name"
+              name="user_name"
               placeholder="Ex: John Smith"
               id="name"
               required
@@ -79,7 +79,7 @@ export const ContactPage = () => {
               className={Styles.sendButton}
               id="submit"
               type="submit"
-              value="SEND"
+              value="Send"
             >
               <div class={Styles.altSendButton}>
                 <FontAwesomeIcon
@@ -140,11 +140,14 @@ export const ContactPage = () => {
               </a>
             </span>
             <span className={Styles.detailsText}>
-            <a className={Styles.detailsText}
-              href="https://iordachecatalin.github.io/curriculumVitae/"
-              rel="noreferrer Iordache Catalin personal profile webpage"
-              target="_blank"
-            >iordache.catalin1986@gmail.com</a>
+              <a
+                className={Styles.detailsText}
+                href="https://iordachecatalin.github.io/curriculumVitae/"
+                rel="noreferrer Iordache Catalin personal profile webpage"
+                target="_blank"
+              >
+                iordache.catalin1986@gmail.com
+              </a>
             </span>
           </div>
           <div className={Styles.line}>
