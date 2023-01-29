@@ -7,7 +7,6 @@ import Logo from "../../Assets/img/logo.png";
 import PopupTimed from "../../Components/Popup/popupTimed";
 import TextScrooling from "../../Components/TextScrooling/textScrooling";
 
-
 import Contact from "../../Pages/contact/contact";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -638,9 +637,7 @@ function firstPage() {
               />
             </div>
 
-            <div className={StylesRight.textDecorationTitle}>
-              Sales Director & Owner
-            </div>
+            <div className={StylesRight.textDecorationTitle}>Entrepreneur</div>
             <div>
               <a
                 className={StylesRight.textDecoration}
@@ -663,7 +660,7 @@ function firstPage() {
             </div>
 
             <div className={StylesRight.textDecorationTitle}>
-              PC Service Technician, Administrator
+              Entrepreneur It Technician
             </div>
             <div className={StylesRight.textDecoration}>
               SC Experince Center SRL · Full-time{" "}
@@ -713,10 +710,7 @@ function firstPage() {
               Professional Rugby Player
             </div>
             <div>
-              <span
-                className={StylesRight.textDecoration}
-                
-              >
+              <span className={StylesRight.textDecoration}>
                 Rugby Club Dinamo · Full-time
               </span>
               <span style={{ color: "#007aab", fontWeight: "500" }}>
