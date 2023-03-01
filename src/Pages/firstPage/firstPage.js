@@ -6,6 +6,7 @@ import DiplomaItSchool from "../../Assets/img/Diploma.jpg";
 import Logo from "../../Assets/img/logo.png";
 import PopupTimed from "../../Components/Popup/popupTimed";
 import TextScrooling from "../../Components/TextScrooling/textScrooling";
+import PdfCv from "../../../src/Assets/Pdf/IordacheCatalin.pdf"
 
 import Contact from "../../Pages/contact/contact";
 
@@ -26,10 +27,24 @@ import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import { faBriefcaseClock } from "@fortawesome/free-solid-svg-icons";
 import { faUserCheck } from "@fortawesome/free-solid-svg-icons";
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 import { Link } from "react-router-dom";
 import ProgressBar from "@ramonak/react-progress-bar";
+
+const PDF_FILE_URL ="http://localhost:3000/IordacheCatalin.pdf";
+
 function firstPage() {
+const donwloadFile = (url) => { 
+   const fileName = url.split("/").pop();
+  const file = document.createElement("a")
+  file.href = url
+  file.setAttribute("download", fileName)
+  document.body.appendChild(file)
+  file.click();
+  file.remove();
+} 
+
   return (
     <>
       <PopupTimed />
@@ -501,7 +516,10 @@ function firstPage() {
         </div>
 
         <div className={Styles.rightSide}>
-          <div className={Styles.space}></div>
+          <div className={StylesRight.spaceRight}>
+            <button className={StylesRight.rightSideDownloadBtn} onClick={() => {donwloadFile(PDF_FILE_URL)}}>
+            <FontAwesomeIcon icon={faDownload} /> Download Cv</button>
+          </div>
           <div className={StylesRight.DetailBox}>
             <div className={StylesRight.DetailInBox}>
               <span style={{ color: "Black", fontSize: "1em" }}> ABOUT ME</span>

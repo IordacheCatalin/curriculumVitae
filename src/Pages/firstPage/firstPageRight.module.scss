@@ -82,6 +82,23 @@
   transition-timing-function: ease-in-out;
   opacity: 1;
 }
+.spaceRight {
+  margin: 0 auto;
+  height: 80px;
+  opacity: 1;
+}
+.rightSideDownloadBtn {
+  margin: 27px;
+  width: 150px;
+  height: 26px;
+}
+.rightSideDownloadBtn:hover {
+  transition: 0.4s;
+  transition-timing-function: ease-in-out;
+  background-color: #337ab7;
+  color: white;
+}
+
 
 @media only screen and (max-width: 900px) {
   .DetailBox {
@@ -102,5 +119,3 @@
     min-width: 157px;
   }
 }
-
-
