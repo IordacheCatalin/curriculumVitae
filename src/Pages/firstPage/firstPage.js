@@ -6,7 +6,6 @@ import DiplomaItSchool from "../../Assets/img/Diploma.jpg";
 import Logo from "../../Assets/img/logo.png";
 import PopupTimed from "../../Components/Popup/popupTimed";
 import TextScrooling from "../../Components/TextScrooling/textScrooling";
-import PdfCv from "../../../src/Assets/Pdf/IordacheCatalin.pdf"
 
 import Contact from "../../Pages/contact/contact";
 
@@ -28,22 +27,23 @@ import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import { faBriefcaseClock } from "@fortawesome/free-solid-svg-icons";
 import { faUserCheck } from "@fortawesome/free-solid-svg-icons";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import CvPdf from "../../Assets/Pdf/IordacheCatalin.pdf"
 
 import { Link } from "react-router-dom";
 import ProgressBar from "@ramonak/react-progress-bar";
 
-const PDF_FILE_URL ="http://localhost:3000/IordacheCatalin.pdf";
+// const PDF_FILE_URL = "http://localhost:3000/IordacheCatalin.pdf";
 
 function firstPage() {
-const donwloadFile = (url) => { 
-   const fileName = url.split("/").pop();
-  const file = document.createElement("a")
-  file.href = url
-  file.setAttribute("download", fileName)
-  document.body.appendChild(file)
-  file.click();
-  file.remove();
-} 
+  const donwloadFile = (url) => {
+    // const fileName = url.split("/").pop();
+    const file = document.createElement("a");
+    file.href = url;
+    file.setAttribute("download", CvPdf);
+    document.body.appendChild(file);
+    file.click();
+    file.remove();
+  };
 
   return (
     <>
@@ -517,8 +517,14 @@ const donwloadFile = (url) => {
 
         <div className={Styles.rightSide}>
           <div className={StylesRight.spaceRight}>
-            <button className={StylesRight.rightSideDownloadBtn} onClick={() => {donwloadFile(PDF_FILE_URL)}}>
-            <FontAwesomeIcon icon={faDownload} /> Download Cv</button>
+            <button
+              className={StylesRight.rightSideDownloadBtn}
+              onClick={() => {
+                donwloadFile(CvPdf);
+              }}
+            >
+              <FontAwesomeIcon icon={faDownload} /> Download Cv
+            </button>
           </div>
           <div className={StylesRight.DetailBox}>
             <div className={StylesRight.DetailInBox}>
