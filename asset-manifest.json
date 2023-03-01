@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/curriculumVitae/static/css/main.6f294eaa.css",
-    "main.js": "/curriculumVitae/static/js/main.d88bf77b.js",
+    "main.css": "/curriculumVitae/static/css/main.3f26de61.css",
+    "main.js": "/curriculumVitae/static/js/main.d7410022.js",
     "static/media/IordacheCatalin.pdf": "/curriculumVitae/static/media/IordacheCatalin.9b8eeea6cc8d8e2b0c1b.pdf",
     "static/media/Diploma.jpg": "/curriculumVitae/static/media/Diploma.4b87e44b1406e549d23f.jpg",
     "static/media/Profile.jpg": "/curriculumVitae/static/media/Profile.6561c1de450166018516.jpg",
     "static/media/Profile2.jpg": "/curriculumVitae/static/media/Profile2.5b1174b909716cbc1b26.jpg",
     "index.html": "/curriculumVitae/index.html",
-    "main.6f294eaa.css.map": "/curriculumVitae/static/css/main.6f294eaa.css.map",
-    "main.d88bf77b.js.map": "/curriculumVitae/static/js/main.d88bf77b.js.map"
+    "main.3f26de61.css.map": "/curriculumVitae/static/css/main.3f26de61.css.map",
+    "main.d7410022.js.map": "/curriculumVitae/static/js/main.d7410022.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f294eaa.css",
-    "static/js/main.d88bf77b.js"
+    "static/css/main.3f26de61.css",
+    "static/js/main.d7410022.js"
   ]
 }
