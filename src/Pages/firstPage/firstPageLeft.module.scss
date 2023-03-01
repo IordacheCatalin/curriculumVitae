@@ -52,7 +52,6 @@ body {
   width: 380px;
   margin-right: 0px;
   margin-left: auto;
-  
 }
 
 .line {
@@ -70,12 +69,15 @@ body {
   min-width: 180px;
 }
 
-.line, .line2, .line3, .line4 {
+.line,
+.line2,
+.line3,
+.line4 {
   height: 1px;
   background-color: white;
   display: inline-block;
   margin-bottom: 4px;
-} 
+}
 
 .gitHubPprojects {
   display: flex;
@@ -105,7 +107,6 @@ body {
   font-family: "IBM Plex Sans", sans-serif;
   opacity: 0.8;
   font-weight: 400;
- 
 }
 .textDecoration:hover {
   opacity: 1;
@@ -142,14 +143,14 @@ body {
 .FontAwesome {
   color: white;
   font-size: 1.2em;
-  margin-Left: 10px;
+  margin-left: 10px;
 }
 
 .FontAwesome:hover {
   transform: scale(1.8) rotate(1turn);
   transition: 0.7s;
   transition-timing-function: ease-in-out;
-  
+
   opacity: 1;
   color: #337ab7;
 }
@@ -267,7 +268,7 @@ body {
 @media only screen and (max-width: 900px) {
   .DetailBox {
     margin: 0 auto;
-   }
+  }
   .leftSide {
     background-color: #21395b;
   }

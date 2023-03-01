@@ -27,12 +27,12 @@ import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import { faBriefcaseClock } from "@fortawesome/free-solid-svg-icons";
 import { faUserCheck } from "@fortawesome/free-solid-svg-icons";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
-import CvPdf from "../../Assets/Pdf/IordacheCatalin.pdf"
+import CvPdf from "../../Assets/Pdf/IordacheCatalin.pdf";
 
 import { Link } from "react-router-dom";
 import ProgressBar from "@ramonak/react-progress-bar";
 
-// const PDF_FILE_URL = "http://localhost:3000/IordacheCatalin.pdf";
+// const PDF_FILE_URL = "http://localhost:3000/IordacheCatalin.pdf"; - for localhost version
 
 function firstPage() {
   const donwloadFile = (url) => {
@@ -523,7 +523,11 @@ function firstPage() {
                 donwloadFile(CvPdf);
               }}
             >
-              <FontAwesomeIcon icon={faDownload} /> Download Cv
+              <FontAwesomeIcon
+                icon={faDownload}
+                style={{ color: "#337ab7", marginRight: "8px" }}
+              />{" "}
+              Download CV
             </button>
           </div>
           <div className={StylesRight.DetailBox}>
